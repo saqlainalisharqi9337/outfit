@@ -1,0 +1,199 @@
+{
+  "config": {
+    "num_classes": 16,
+    "batch_size": 1,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0005,
+    "num_epochs": 5,
+    "num_workers": 0,
+    "device": "cpu",
+    "seed": 42,
+    "min_size": 256,
+    "max_size": 320,
+    "max_train_images": 1000,
+    "max_val_images": 150,
+    "pretrained": true,
+    "subset_mode": "class_aware",
+    "score_threshold": 0.3,
+    "class_names": [
+      "shirt",
+      "jacket",
+      "sweater",
+      "trousers",
+      "shorts",
+      "skirt",
+      "dress",
+      "jumpsuit",
+      "shoes",
+      "bag",
+      "hat",
+      "belt",
+      "scarf",
+      "watch",
+      "sunglasses"
+    ],
+    "background_id": 0,
+    "num_foreground": 15
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "elapsed_seconds": 2022.8782845002133,
+      "train": {
+        "loss_classifier": 0.5225958471819758,
+        "loss_box_reg": 0.400312170564197,
+        "loss_mask": 0.43932023309916257,
+        "loss_objectness": 0.17069830124545843,
+        "loss_rpn_box_reg": 0.17131541831185312,
+        "total_loss": 1.7042419698536395,
+        "steps": 1000.0,
+        "skipped": 0.0
+      },
+      "val": {
+        "loss_classifier": 0.41039562433958054,
+        "loss_box_reg": 0.3509324455168098,
+        "loss_mask": 0.3965477567911148,
+        "loss_objectness": 0.1995411052306493,
+        "loss_rpn_box_reg": 0.17427837646915578,
+        "total_loss": 1.531695309082667,
+        "steps": 150.0,
+        "skipped": 0.0
+      }
+    },
+    {
+      "epoch": 2,
+      "elapsed_seconds": 3436.2498284999747,
+      "train": {
+        "loss_classifier": 0.4412542701512575,
+        "loss_box_reg": 0.3904950618101284,
+        "loss_mask": 0.3582045332491398,
+        "loss_objectness": 0.11656606699014083,
+        "loss_rpn_box_reg": 0.15782984410716017,
+        "total_loss": 1.464349776417017,
+        "steps": 1000.0,
+        "skipped": 0.0
+      },
+      "val": {
+        "loss_classifier": 0.4970049274464448,
+        "loss_box_reg": 0.4031235750640432,
+        "loss_mask": 0.36772122139732044,
+        "loss_objectness": 0.16264356094102064,
+        "loss_rpn_box_reg": 0.1645098840732438,
+        "total_loss": 1.5950031745433808,
+        "steps": 150.0,
+        "skipped": 0.0
+      }
+    },
+    {
+      "epoch": 3,
+      "elapsed_seconds": 8805.542136899894,
+      "train": {
+        "loss_classifier": 0.42381867406517265,
+        "loss_box_reg": 0.4052921799812466,
+        "loss_mask": 0.32465510508418083,
+        "loss_objectness": 0.08803343871026299,
+        "loss_rpn_box_reg": 0.1452564811727352,
+        "total_loss": 1.3870558788776397,
+        "steps": 1000.0,
+        "skipped": 0.0
+      },
+      "val": {
+        "loss_classifier": 0.47182378530502317,
+        "loss_box_reg": 0.4061557536758482,
+        "loss_mask": 0.36319589843352634,
+        "loss_objectness": 0.13442782434324424,
+        "loss_rpn_box_reg": 0.1575909352186136,
+        "total_loss": 1.5331942037741344,
+        "steps": 150.0,
+        "skipped": 0.0
+      }
+    },
+    {
+      "epoch": 4,
+      "elapsed_seconds": 2251.683597299969,
+      "train": {
+        "loss_classifier": 0.40299538552761077,
+        "loss_box_reg": 0.3917092490736395,
+        "loss_mask": 0.31340904638543726,
+        "loss_objectness": 0.0809138501075795,
+        "loss_rpn_box_reg": 0.13568591057936283,
+        "total_loss": 1.3247134385108947,
+        "steps": 1000.0,
+        "skipped": 0.0
+      },
+      "val": {
+        "loss_classifier": 0.5358414295315742,
+        "loss_box_reg": 0.4434389323492845,
+        "loss_mask": 0.3449035227298737,
+        "loss_objectness": 0.1316494380434354,
+        "loss_rpn_box_reg": 0.16372532226610928,
+        "total_loss": 1.619558652639389,
+        "steps": 150.0,
+        "skipped": 0.0
+      }
+    },
+    {
+      "epoch": 5,
+      "elapsed_seconds": 2360.083360900171,
+      "train": {
+        "loss_classifier": 0.3981648377105594,
+        "loss_box_reg": 0.4115063200239092,
+        "loss_mask": 0.2910592738613486,
+        "loss_objectness": 0.061583913608803414,
+        "loss_rpn_box_reg": 0.12775603194764698,
+        "total_loss": 1.290070378690958,
+        "steps": 1000.0,
+        "skipped": 0.0
+      },
+      "val": {
+        "loss_classifier": 0.542358017017444,
+        "loss_box_reg": 0.48069880716502666,
+        "loss_mask": 0.3332773226996263,
+        "loss_objectness": 0.1619493564714988,
+        "loss_rpn_box_reg": 0.1651647388196822,
+        "total_loss": 1.683448237379392,
+        "steps": 150.0,
+        "skipped": 0.0
+      }
+    }
+  ],
+  "best_val_loss": 1.531695309082667,
+  "best_epoch": 1,
+  "total_elapsed_seconds": 18880.47119479999,
+  "train_images": 1000,
+  "val_images": 150,
+  "train_histogram": {
+    "shirt": 209,
+    "jacket": 332,
+    "sweater": 88,
+    "trousers": 355,
+    "shorts": 120,
+    "skirt": 140,
+    "dress": 238,
+    "jumpsuit": 77,
+    "shoes": 1187,
+    "bag": 281,
+    "hat": 147,
+    "belt": 234,
+    "scarf": 101,
+    "watch": 165,
+    "sunglasses": 219
+  },
+  "val_histogram": {
+    "shirt": 27,
+    "jacket": 43,
+    "sweater": 13,
+    "trousers": 39,
+    "shorts": 24,
+    "skirt": 28,
+    "dress": 33,
+    "jumpsuit": 12,
+    "shoes": 198,
+    "bag": 57,
+    "hat": 22,
+    "belt": 28,
+    "scarf": 13,
+    "watch": 24,
+    "sunglasses": 29
+  }
+}

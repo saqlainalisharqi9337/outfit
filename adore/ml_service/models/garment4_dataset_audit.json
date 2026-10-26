@@ -1,0 +1,61 @@
+{
+  "root": "D:\\fyp project\\dataset",
+  "classes": [
+    "shirt",
+    "t-shirt",
+    "jacket",
+    "pants"
+  ],
+  "splits": {
+    "train": {
+      "images": 13276,
+      "per_class": {
+        "shirt": 3406,
+        "t-shirt": 3431,
+        "jacket": 2510,
+        "pants": 3929
+      }
+    },
+    "val": {
+      "images": 1511,
+      "per_class": {
+        "shirt": 389,
+        "t-shirt": 400,
+        "jacket": 290,
+        "pants": 432
+      }
+    },
+    "test": {
+      "images": 1657,
+      "per_class": {
+        "shirt": 416,
+        "t-shirt": 434,
+        "jacket": 331,
+        "pants": 476
+      }
+    }
+  },
+  "imbalance": {
+    "shirt": {
+      "count": 3406,
+      "ratio_to_largest": 0.867
+    },
+    "t-shirt": {
+      "count": 3431,
+      "ratio_to_largest": 0.873
+    },
+    "jacket": {
+      "count": 2510,
+      "ratio_to_largest": 0.639
+    },
+    "pants": {
+      "count": 3929,
+      "ratio_to_largest": 1.0
+    }
+  },
+  "issues": [],
+  "notes": [
+    "pants and formal trousers are merged into class 'pants'.",
+    "zip and pullover hoodies map to 'jacket' when under jacket/hoodie folders."
+  ]
+}

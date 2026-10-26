@@ -1,0 +1,180 @@
+{
+  "classify": [
+    {
+      "item": "t-shirt",
+      "accuracy": 0.875,
+      "hits": 7,
+      "n": 8,
+      "preds": [
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "shirt",
+        "t-shirt",
+        "t-shirt"
+      ],
+      "ok": true
+    },
+    {
+      "item": "shirt",
+      "accuracy": 1.0,
+      "hits": 8,
+      "n": 8,
+      "preds": [
+        "shirt",
+        "shirt",
+        "t-shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt"
+      ],
+      "ok": true
+    },
+    {
+      "item": "jacket",
+      "accuracy": 1.0,
+      "hits": 8,
+      "n": 8,
+      "preds": [
+        "jacket",
+        "jacket",
+        "jacket",
+        "jacket",
+        "jacket",
+        "jacket",
+        "jacket",
+        "jacket"
+      ],
+      "ok": true
+    },
+    {
+      "item": "dress",
+      "accuracy": 0.5,
+      "hits": 4,
+      "n": 8,
+      "preds": [
+        "dress",
+        "scarf",
+        "jacket",
+        "jacket",
+        "dress",
+        "dress",
+        "dress",
+        "t-shirt"
+      ],
+      "ok": true
+    },
+    {
+      "item": "trousers",
+      "accuracy": 0.75,
+      "hits": 6,
+      "n": 8,
+      "preds": [
+        "trousers",
+        "trousers",
+        "trousers",
+        "jacket",
+        "trousers",
+        "trousers",
+        "trousers",
+        "jacket"
+      ],
+      "ok": true
+    },
+    {
+      "item": "shorts",
+      "accuracy": 0.5,
+      "hits": 4,
+      "n": 8,
+      "preds": [
+        "shorts",
+        "bag",
+        "shorts",
+        "jacket",
+        "t-shirt",
+        "shorts",
+        "shorts",
+        "scarf"
+      ],
+      "ok": true
+    },
+    {
+      "item": "skirt",
+      "accuracy": 0.625,
+      "hits": 5,
+      "n": 8,
+      "preds": [
+        "skirt",
+        "skirt",
+        "skirt",
+        "skirt",
+        "scarf",
+        "bag",
+        "t-shirt",
+        "skirt"
+      ],
+      "ok": true
+    },
+    {
+      "item": "hat",
+      "accuracy": 0.25,
+      "hits": 2,
+      "n": 8,
+      "preds": [
+        "shorts",
+        "hat",
+        "t-shirt",
+        "bag",
+        "bag",
+        "jacket",
+        "t-shirt",
+        "hat"
+      ],
+      "ok": false
+    },
+    {
+      "item": "bag",
+      "accuracy": 0.875,
+      "hits": 7,
+      "n": 8,
+      "preds": [
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "skirt"
+      ],
+      "ok": true
+    },
+    {
+      "item": "heels",
+      "accuracy": 0.375,
+      "hits": 3,
+      "n": 8,
+      "preds": [
+        "skirt",
+        "sandals",
+        "sandals",
+        "skirt",
+        "skirt",
+        "jacket",
+        "bag",
+        "sandals"
+      ],
+      "ok": false
+    }
+  ],
+  "passed": 8,
+  "total": 10,
+  "recommendation": {
+    "ok": true,
+    "why": "top+bottom+shoes"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "hat",
+    "bag",
+    "shirt"
+  ],
+  "index": {
+    "hat": 0,
+    "bag": 1,
+    "shirt": 2
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\hat_gate",
+  "sources": [
+    "local Adore accessories/hat",
+    "Fashionpedia hat crops (open images)",
+    "Wikimedia Commons CC hats",
+    "local bags and shirts as hard negatives"
+  ]
+}

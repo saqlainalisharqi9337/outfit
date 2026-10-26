@@ -1,0 +1,21 @@
+{
+  "classes": [
+    "watch",
+    "belt",
+    "bag",
+    "trousers"
+  ],
+  "index": {
+    "watch": 0,
+    "belt": 1,
+    "bag": 2,
+    "trousers": 3
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\watch_belt_gate",
+  "sources": [
+    "Fashionpedia watch and belt crops (open images)",
+    "Hugging Face fashion-product-images Watches/Belts",
+    "local bags and trousers as hard negatives"
+  ]
+}

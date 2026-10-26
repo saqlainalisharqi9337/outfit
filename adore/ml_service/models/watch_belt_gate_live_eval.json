@@ -1,0 +1,22 @@
+{
+  "specialist_test": {
+    "accuracy": 0.9197,
+    "watch_as_watch_belt_bag_trousers": [40, 0, 0, 0],
+    "belt_as_watch_belt_bag_trousers": [24, 124, 4, 1],
+    "bag_as_watch": 0,
+    "trousers_as_watch_or_belt": 0
+  },
+  "classify_clothing": {
+    "heldout_watch": {"n": 24, "watch": 23, "hat": 1},
+    "heldout_belt": {"n": 24, "belt": 20, "watch": 3, "bag": 1},
+    "heldout_bag": {"n": 12, "bag": 12},
+    "val_hat": {"n": 12, "hat": 11, "bag": 1}
+  },
+  "parse_outfit": {
+    "watch": {"n": 8, "watch": 7, "hat": 1},
+    "belt": {"n": 8, "belt": 7, "watch": 1},
+    "bag": {"n": 6, "bag": 6},
+    "hat": {"n": 6, "hat": 5, "bag": 1}
+  },
+  "note": "bag_gate and hat_gate weights unchanged"
+}

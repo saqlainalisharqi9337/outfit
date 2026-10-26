@@ -1,0 +1,34 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+numpy>=2.0.0
+pillow>=11.0.0
+magic-hour>=0.1.0
+
+# Runtime classifier (install ONE):
+#   pip install tensorflow          # Python 3.11 or 3.12
+#   pip install torch torchvision   # fallback ImageNet path
+#
+# Training extras:
+#   pip install tensorflow scikit-learn matplotlib
+#
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+numpy>=2.0.0
+pillow>=11.0.0
+magic-hour>=0.1.0
+
+# Runtime classifier (install ONE):
+#   pip install tensorflow          # Python 3.11 or 3.12
+#   pip install torch torchvision   # fallback ImageNet path
+#
+# Training extras:
+#   pip install tensorflow scikit-learn matplotlib
+#
+# Optional detection-assisted localisation (AGPL-3.0, see ML_DEPENDENCY_LICENSE.md):
+#   pip install ultralytics pytest httpx
+# Colour analysis uses NumPy + scikit-learn K-Means + OpenCV GrabCut when present:
+#   pip install scikit-learn opencv-python-headless
+# Place models/yolov8n.pt locally. The service never downloads weights at request time.
+

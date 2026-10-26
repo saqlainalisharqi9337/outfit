@@ -1,0 +1,14 @@
+{
+  "specialist_test": {
+    "accuracy": 0.8988,
+    "dupatta_as_dupatta_bag_belt": [29, 0, 0],
+    "bag_as_dupatta": 0
+  },
+  "classify_clothing": {
+    "heldout_dupatta": {"n": 24, "dupatta": 22, "jacket": 1, "belt": 1},
+    "val_bag": {"n": 8, "bag": 8},
+    "val_hat": {"n": 8, "hat": 7, "bag": 1},
+    "watch": {"n": 12, "watch": 12}
+  },
+  "note": "bag/hat/watch weights unchanged"
+}

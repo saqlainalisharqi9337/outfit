@@ -1,0 +1,209 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.7607,
+      "val_acc": 0.8364,
+      "val_macro_f1": 0.8204,
+      "per_class": {
+        "shirt": {
+          "precision": 0.8,
+          "recall": 0.8211,
+          "f1": 0.8104,
+          "support": 531
+        },
+        "t-shirt": {
+          "precision": 0.8226,
+          "recall": 0.9726,
+          "f1": 0.8914,
+          "support": 620
+        },
+        "jacket": {
+          "precision": 0.9622,
+          "recall": 0.6274,
+          "f1": 0.7595,
+          "support": 365
+        }
+      },
+      "seconds": 267.0
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.8507,
+      "val_acc": 0.9063,
+      "val_macro_f1": 0.9015,
+      "per_class": {
+        "shirt": {
+          "precision": 0.8736,
+          "recall": 0.8719,
+          "f1": 0.8728,
+          "support": 531
+        },
+        "t-shirt": {
+          "precision": 0.9286,
+          "recall": 0.9645,
+          "f1": 0.9462,
+          "support": 620
+        },
+        "jacket": {
+          "precision": 0.9152,
+          "recall": 0.8575,
+          "f1": 0.8854,
+          "support": 365
+        }
+      },
+      "seconds": 253.7
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.9027,
+      "val_acc": 0.9248,
+      "val_macro_f1": 0.9209,
+      "per_class": {
+        "shirt": {
+          "precision": 0.907,
+          "recall": 0.9002,
+          "f1": 0.9036,
+          "support": 531
+        },
+        "t-shirt": {
+          "precision": 0.9718,
+          "recall": 0.9435,
+          "f1": 0.9574,
+          "support": 620
+        },
+        "jacket": {
+          "precision": 0.876,
+          "recall": 0.9288,
+          "f1": 0.9016,
+          "support": 365
+        }
+      },
+      "seconds": 256.5
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.916,
+      "val_acc": 0.907,
+      "val_macro_f1": 0.9005,
+      "per_class": {
+        "shirt": {
+          "precision": 0.8976,
+          "recall": 0.8588,
+          "f1": 0.8778,
+          "support": 531
+        },
+        "t-shirt": {
+          "precision": 0.9608,
+          "recall": 0.95,
+          "f1": 0.9554,
+          "support": 620
+        },
+        "jacket": {
+          "precision": 0.8354,
+          "recall": 0.9041,
+          "f1": 0.8684,
+          "support": 365
+        }
+      },
+      "seconds": 248.6
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.9313,
+      "val_acc": 0.9195,
+      "val_macro_f1": 0.9165,
+      "per_class": {
+        "shirt": {
+          "precision": 0.8858,
+          "recall": 0.9058,
+          "f1": 0.8957,
+          "support": 531
+        },
+        "t-shirt": {
+          "precision": 0.9666,
+          "recall": 0.9339,
+          "f1": 0.95,
+          "support": 620
+        },
+        "jacket": {
+          "precision": 0.893,
+          "recall": 0.9151,
+          "f1": 0.9039,
+          "support": 365
+        }
+      },
+      "seconds": 246.6
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.9453,
+      "val_acc": 0.878,
+      "val_macro_f1": 0.8707,
+      "per_class": {
+        "shirt": {
+          "precision": 0.9356,
+          "recall": 0.7665,
+          "f1": 0.8427,
+          "support": 531
+        },
+        "t-shirt": {
+          "precision": 0.9597,
+          "recall": 0.921,
+          "f1": 0.9399,
+          "support": 620
+        },
+        "jacket": {
+          "precision": 0.7263,
+          "recall": 0.9671,
+          "f1": 0.8296,
+          "support": 365
+        }
+      },
+      "seconds": 248.0
+    }
+  ],
+  "best_val_macro_f1": 0.9208780785370497,
+  "test": {
+    "loss": 0.2186394941858367,
+    "accuracy": 0.9147095179233622,
+    "macro_f1": 0.9107327589663399,
+    "per_class": {
+      "shirt": {
+        "precision": 0.8889,
+        "recall": 0.9032,
+        "f1": 0.896,
+        "support": 558
+      },
+      "t-shirt": {
+        "precision": 0.9712,
+        "recall": 0.9281,
+        "f1": 0.9492,
+        "support": 654
+      },
+      "jacket": {
+        "precision": 0.8662,
+        "recall": 0.9089,
+        "f1": 0.887,
+        "support": 406
+      }
+    },
+    "confusion": [
+      [
+        504,
+        16,
+        38
+      ],
+      [
+        28,
+        607,
+        19
+      ],
+      [
+        35,
+        2,
+        369
+      ]
+    ]
+  }
+}

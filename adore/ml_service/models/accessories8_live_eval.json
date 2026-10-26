@@ -1,0 +1,590 @@
+{
+  "n": 64,
+  "accuracy": 0.4375,
+  "per_class": {
+    "bag": {
+      "n": 8,
+      "accuracy": 0.0,
+      "wrong": {
+        "skirt": 2,
+        "jewelry": 2,
+        "shoes": 1,
+        "scarf": 1,
+        "t-shirt": 2
+      }
+    },
+    "belt": {
+      "n": 8,
+      "accuracy": 0.5,
+      "wrong": {
+        "t-shirt": 1,
+        "dress": 1,
+        "jewelry": 2
+      }
+    },
+    "scarf": {
+      "n": 8,
+      "accuracy": 0.5,
+      "wrong": {
+        "jacket": 2,
+        "bag": 1,
+        "hat": 1
+      }
+    },
+    "dupatta": {
+      "n": 8,
+      "accuracy": 0.25,
+      "wrong": {
+        "jacket": 5,
+        "trousers": 1
+      }
+    },
+    "hat": {
+      "n": 8,
+      "accuracy": 0.875,
+      "wrong": {
+        "shirt": 1
+      }
+    },
+    "hijab": {
+      "n": 8,
+      "accuracy": 0.25,
+      "wrong": {
+        "jewelry": 4,
+        "jacket": 1,
+        "belt": 1
+      }
+    },
+    "jewelry": {
+      "n": 8,
+      "accuracy": 0.625,
+      "wrong": {
+        "skirt": 2,
+        "trousers": 1
+      }
+    },
+    "sunglasses": {
+      "n": 8,
+      "accuracy": 0.5,
+      "wrong": {
+        "skirt": 1,
+        "jewelry": 2,
+        "shoes": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "path": "fp_1007_175.jpg",
+      "truth": "bag",
+      "pred": "skirt",
+      "ok": false,
+      "confidence": 0.8817956447601318,
+      "source": "lowerwear"
+    },
+    {
+      "path": "fp_1011_176.jpg",
+      "truth": "bag",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.3671514093875885,
+      "source": "imagenet"
+    },
+    {
+      "path": "fp_1017_177.jpg",
+      "truth": "bag",
+      "pred": "shoes",
+      "ok": false,
+      "confidence": 0.9611090421676636,
+      "source": "footwear"
+    },
+    {
+      "path": "fp_103_10.jpg",
+      "truth": "bag",
+      "pred": "scarf",
+      "ok": false,
+      "confidence": 0.522029459476471,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1046_180.jpg",
+      "truth": "bag",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.5760987997055054,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_104_11.jpg",
+      "truth": "bag",
+      "pred": "t-shirt",
+      "ok": false,
+      "confidence": 0.8926487565040588,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_1056_181.jpg",
+      "truth": "bag",
+      "pred": "skirt",
+      "ok": false,
+      "confidence": 0.9652009010314941,
+      "source": "lowerwear"
+    },
+    {
+      "path": "fp_105_14.jpg",
+      "truth": "bag",
+      "pred": "t-shirt",
+      "ok": false,
+      "confidence": 0.7139480113983154,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_1035_126.jpg",
+      "truth": "belt",
+      "pred": "belt",
+      "ok": true,
+      "confidence": 0.6571869850158691,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1046_128.jpg",
+      "truth": "belt",
+      "pred": "t-shirt",
+      "ok": false,
+      "confidence": 0.8911041021347046,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_1051_129.jpg",
+      "truth": "belt",
+      "pred": "dress",
+      "ok": false,
+      "confidence": 0.5588545799255371,
+      "source": "silhouette"
+    },
+    {
+      "path": "fp_10531_29.jpg",
+      "truth": "belt",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.4623807668685913,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10593_30.jpg",
+      "truth": "belt",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.979496419429779,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10604_31.jpg",
+      "truth": "belt",
+      "pred": "belt",
+      "ok": true,
+      "confidence": 0.7545881271362305,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10667_33.jpg",
+      "truth": "belt",
+      "pred": "belt",
+      "ok": true,
+      "confidence": 0.9737389087677002,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1072_131.jpg",
+      "truth": "belt",
+      "pred": "belt",
+      "ok": true,
+      "confidence": 0.7931159138679504,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10145_8.jpg",
+      "truth": "scarf",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.9948967099189758,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_1023_33.jpg",
+      "truth": "scarf",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.9676575660705566,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_1028_35.jpg",
+      "truth": "scarf",
+      "pred": "dupatta",
+      "ok": true,
+      "confidence": 0.6812739372253418,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1044_36.jpg",
+      "truth": "scarf",
+      "pred": "bag",
+      "ok": false,
+      "confidence": 0.0831602867692709,
+      "source": "imagenet"
+    },
+    {
+      "path": "fp_112_3.jpg",
+      "truth": "scarf",
+      "pred": "scarf",
+      "ok": true,
+      "confidence": 0.5498566627502441,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_112_51.jpg",
+      "truth": "scarf",
+      "pred": "scarf",
+      "ok": true,
+      "confidence": 0.5498566627502441,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1201_42.jpg",
+      "truth": "scarf",
+      "pred": "scarf",
+      "ok": true,
+      "confidence": 0.3414929211139679,
+      "source": "imagenet"
+    },
+    {
+      "path": "fp_1276_45.jpg",
+      "truth": "scarf",
+      "pred": "hat",
+      "ok": false,
+      "confidence": 0.31757453083992004,
+      "source": "accessory"
+    },
+    {
+      "path": "drape_fp_1026_34.jpg",
+      "truth": "dupatta",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.9867268800735474,
+      "source": "upperwear"
+    },
+    {
+      "path": "drape_fp_1081_37.jpg",
+      "truth": "dupatta",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.6864178776741028,
+      "source": "upperwear"
+    },
+    {
+      "path": "drape_fp_1145_38.jpg",
+      "truth": "dupatta",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.9230947494506836,
+      "source": "upperwear"
+    },
+    {
+      "path": "drape_fp_1184_40.jpg",
+      "truth": "dupatta",
+      "pred": "scarf",
+      "ok": true,
+      "confidence": 0.24997833371162415,
+      "source": "imagenet"
+    },
+    {
+      "path": "drape_fp_11880_15.jpg",
+      "truth": "dupatta",
+      "pred": "scarf",
+      "ok": true,
+      "confidence": 0.4550575315952301,
+      "source": "accessory"
+    },
+    {
+      "path": "drape_fp_12208_17.jpg",
+      "truth": "dupatta",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.9862188696861267,
+      "source": "upperwear"
+    },
+    {
+      "path": "drape_fp_1223_43.jpg",
+      "truth": "dupatta",
+      "pred": "trousers",
+      "ok": false,
+      "confidence": 0.7394111752510071,
+      "source": "silhouette"
+    },
+    {
+      "path": "drape_fp_1327_47.jpg",
+      "truth": "dupatta",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.7473630309104919,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_10222_10.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.7646455764770508,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10382_11.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.971504807472229,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10602_14.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.8707644939422607,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10667_15.jpg",
+      "truth": "hat",
+      "pred": "shirt",
+      "ok": false,
+      "confidence": 0.8672417998313904,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_11073_19.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.9605174660682678,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1220_65.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.6681810617446899,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_12251_29.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.9537966251373291,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_12889_31.jpg",
+      "truth": "hat",
+      "pred": "hat",
+      "ok": true,
+      "confidence": 0.9832981824874878,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10061_10.jpg",
+      "truth": "hijab",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.9671522974967957,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1036_55.jpg",
+      "truth": "hijab",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.8170121908187866,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10795_13.jpg",
+      "truth": "hijab",
+      "pred": "hijab",
+      "ok": true,
+      "confidence": 0.6478745341300964,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_11178_15.jpg",
+      "truth": "hijab",
+      "pred": "jacket",
+      "ok": false,
+      "confidence": 0.5709108710289001,
+      "source": "upperwear"
+    },
+    {
+      "path": "fp_114_6.jpg",
+      "truth": "hijab",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.9582047462463379,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_11880_17.jpg",
+      "truth": "hijab",
+      "pred": "hijab",
+      "ok": true,
+      "confidence": 0.8779850602149963,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1257_61.jpg",
+      "truth": "hijab",
+      "pred": "belt",
+      "ok": false,
+      "confidence": 0.6749603152275085,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1272_62.jpg",
+      "truth": "hijab",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.779742419719696,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_10645_12.jpg",
+      "truth": "jewelry",
+      "pred": "skirt",
+      "ok": false,
+      "confidence": 0.9543053507804871,
+      "source": "lowerwear"
+    },
+    {
+      "path": "fp_11996_24.jpg",
+      "truth": "jewelry",
+      "pred": "watch",
+      "ok": true,
+      "confidence": 0.14251264929771423,
+      "source": "imagenet"
+    },
+    {
+      "path": "fp_1199_44.jpg",
+      "truth": "jewelry",
+      "pred": "jewelry",
+      "ok": true,
+      "confidence": 0.5718283653259277,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1204_47.jpg",
+      "truth": "jewelry",
+      "pred": "trousers",
+      "ok": false,
+      "confidence": 0.8897432684898376,
+      "source": "silhouette"
+    },
+    {
+      "path": "fp_1211_48.jpg",
+      "truth": "jewelry",
+      "pred": "jewelry",
+      "ok": true,
+      "confidence": 0.9979143738746643,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_13482_31.jpg",
+      "truth": "jewelry",
+      "pred": "jewelry",
+      "ok": true,
+      "confidence": 0.12323646061122417,
+      "source": "imagenet"
+    },
+    {
+      "path": "fp_1383_55.jpg",
+      "truth": "jewelry",
+      "pred": "jewelry",
+      "ok": true,
+      "confidence": 0.9910266995429993,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1419_56.jpg",
+      "truth": "jewelry",
+      "pred": "skirt",
+      "ok": false,
+      "confidence": 0.5984334349632263,
+      "source": "silhouette"
+    },
+    {
+      "path": "fp_1002_96.jpg",
+      "truth": "sunglasses",
+      "pred": "sunglasses",
+      "ok": true,
+      "confidence": 0.8619678020477295,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1022_97.jpg",
+      "truth": "sunglasses",
+      "pred": "skirt",
+      "ok": false,
+      "confidence": 0.880164623260498,
+      "source": "lowerwear"
+    },
+    {
+      "path": "fp_1025_98.jpg",
+      "truth": "sunglasses",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.4611297342926264,
+      "source": "imagenet"
+    },
+    {
+      "path": "fp_1030_99.jpg",
+      "truth": "sunglasses",
+      "pred": "sunglasses",
+      "ok": true,
+      "confidence": 0.6773250102996826,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1039_100.jpg",
+      "truth": "sunglasses",
+      "pred": "jewelry",
+      "ok": false,
+      "confidence": 0.8432657718658447,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1043_101.jpg",
+      "truth": "sunglasses",
+      "pred": "sunglasses",
+      "ok": true,
+      "confidence": 0.9107621908187866,
+      "source": "accessory"
+    },
+    {
+      "path": "fp_1086_102.jpg",
+      "truth": "sunglasses",
+      "pred": "shoes",
+      "ok": false,
+      "confidence": 0.9992928504943848,
+      "source": "footwear"
+    },
+    {
+      "path": "fp_11217_26.jpg",
+      "truth": "sunglasses",
+      "pred": "sunglasses",
+      "ok": true,
+      "confidence": 0.6351915001869202,
+      "source": "accessory"
+    }
+  ]
+}

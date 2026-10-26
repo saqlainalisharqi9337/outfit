@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "trousers",
+    "shorts",
+    "skirt",
+    "shalwar",
+    "leggings"
+  ],
+  "category": {
+    "trousers": "lowerwear",
+    "shorts": "lowerwear",
+    "skirt": "lowerwear",
+    "shalwar": "lowerwear",
+    "leggings": "lowerwear"
+  },
+  "backbone": "resnet18",
+  "imageSize": 224
+}

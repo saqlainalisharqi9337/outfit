@@ -1,0 +1,56 @@
+{
+  "accuracy": 0.9097621000820345,
+  "precision_macro": 0.9079329268008514,
+  "recall_macro": 0.9120094910062447,
+  "f1_macro": 0.9082400501329418,
+  "per_class": {
+    "dress": {
+      "precision": 0.8525798525798526,
+      "recall": 0.9665738161559888,
+      "f1": 0.9060052219321149,
+      "support": 359.0,
+      "accuracy": 0.9665738161559888
+    },
+    "skirt": {
+      "precision": 0.9029649595687331,
+      "recall": 0.8723958333333334,
+      "f1": 0.8874172185430463,
+      "support": 384.0,
+      "accuracy": 0.8723958333333334
+    },
+    "trousers": {
+      "precision": 0.9682539682539683,
+      "recall": 0.8970588235294118,
+      "f1": 0.9312977099236641,
+      "support": 476.0,
+      "accuracy": 0.8970588235294118
+    }
+  },
+  "confusion_matrix": [
+    [
+      347,
+      11,
+      1
+    ],
+    [
+      36,
+      335,
+      13
+    ],
+    [
+      24,
+      25,
+      427
+    ]
+  ],
+  "labels": [
+    "dress",
+    "skirt",
+    "trousers"
+  ],
+  "display": {
+    "dress": "Long Dress",
+    "skirt": "Long Skirt",
+    "trousers": "Pants/Trousers"
+  }
+}

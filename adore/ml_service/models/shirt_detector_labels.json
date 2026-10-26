@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "shirt",
+    "other"
+  ],
+  "index": {
+    "shirt": 0,
+    "other": 1
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\shirt_detector",
+  "sources": [
+    "local shirts and t-shirts",
+    "Hugging Face fashion-product-images Shirts and Tshirts",
+    "Fashionpedia shirt/blouse and top crops",
+    "dupatta, hat, dress, bag, trousers, skirt hard negatives"
+  ]
+}

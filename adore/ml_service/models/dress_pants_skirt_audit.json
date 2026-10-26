@@ -1,0 +1,48 @@
+{
+  "root": "D:\\fyp project\\dataset",
+  "task": "long_dress vs pants vs long_skirt",
+  "class_order": [
+    "dress",
+    "skirt",
+    "trousers"
+  ],
+  "display": {
+    "dress": "Long Dress",
+    "skirt": "Long Skirt",
+    "trousers": "Pants/Trousers"
+  },
+  "splits": {
+    "train": {
+      "images": 9961,
+      "classes": {
+        "dress": 2953,
+        "skirt": 3079,
+        "trousers": 3929
+      }
+    },
+    "val": {
+      "images": 1144,
+      "classes": {
+        "dress": 342,
+        "skirt": 370,
+        "trousers": 432
+      }
+    },
+    "test": {
+      "images": 1219,
+      "classes": {
+        "dress": 359,
+        "skirt": 384,
+        "trousers": 476
+      }
+    }
+  },
+  "issues": [
+    "Folder labels are trusted. If a maxi skirt was saved under one-piece/dress (or palazzo pants under skirt), move that file \u2014 this trainer does not guess from filenames."
+  ],
+  "notes": [
+    "There is no bottomwear/jeans folder. Denim lives in bottomwear/pants and is trained as trousers (Pants/Trousers).",
+    "The general clothing_mobilenetv2.keras is not required. This specialist only learns the three silhouettes that ImageNet + geometry mix up.",
+    "Do not vertically flip or heavily crop: that hides waist vs shoulders and the crotch gap between trouser legs."
+  ]
+}

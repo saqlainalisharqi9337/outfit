@@ -1,0 +1,1 @@
+{"boxes_total":115215,"under_16px_320_480":13262,"under_16px_384_576":9151,"under_16px_416_624":7842,"under_16px_480_720":5532,"chosen_min_size":416,"chosen_max_size":624,"rejected_480_720":"process exit 3221225477 at epoch 1 step 1200/2300, no checkpoint saved"}

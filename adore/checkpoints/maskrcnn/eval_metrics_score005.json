@@ -1,0 +1,181 @@
+{
+  "num_validation_images": 50,
+  "num_predictions": 598,
+  "num_ground_truth": 154,
+  "confidence_threshold": 0.05,
+  "iou_threshold": 0.5,
+  "precision": 0.10033444816053512,
+  "recall": 0.38961038961038963,
+  "mean_iou": 0.6550323188304901,
+  "map50": 0.04320544740595936,
+  "map50_95": 0.012986191841458791,
+  "per_class": {
+    "shirt": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "n_gt": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "jacket": {
+      "tp": 5,
+      "fp": 94,
+      "fn": 4,
+      "n_gt": 9,
+      "precision": 0.050505050505050504,
+      "recall": 0.5555555555555556,
+      "ap50": 0.03767214651380778,
+      "ap50_95": 0.011638906914701853
+    },
+    "sweater": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "n_gt": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "trousers": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 9,
+      "n_gt": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "shorts": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "n_gt": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "skirt": {
+      "tp": 0,
+      "fp": 9,
+      "fn": 5,
+      "n_gt": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "dress": {
+      "tp": 17,
+      "fp": 114,
+      "fn": 6,
+      "n_gt": 23,
+      "precision": 0.1297709923664122,
+      "recall": 0.7391304347826086,
+      "ap50": 0.23034973924077218,
+      "ap50_95": 0.05578425914541213
+    },
+    "jumpsuit": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_gt": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "shoes": {
+      "tp": 38,
+      "fp": 319,
+      "fn": 27,
+      "n_gt": 65,
+      "precision": 0.10644257703081232,
+      "recall": 0.5846153846153846,
+      "ap50": 0.3800598253348104,
+      "ap50_95": 0.12736971156176788
+    },
+    "bag": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "n_gt": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "hat": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "n_gt": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "belt": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "n_gt": 10,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "scarf": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "n_gt": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "watch": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "n_gt": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    "sunglasses": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 6,
+      "n_gt": 6,
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    }
+  },
+  "class_names": [
+    "shirt",
+    "jacket",
+    "sweater",
+    "trousers",
+    "shorts",
+    "skirt",
+    "dress",
+    "jumpsuit",
+    "shoes",
+    "bag",
+    "hat",
+    "belt",
+    "scarf",
+    "watch",
+    "sunglasses"
+  ]
+}

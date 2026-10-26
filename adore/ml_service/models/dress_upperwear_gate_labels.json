@@ -1,0 +1,7 @@
+{
+  "classes": [
+    "dress",
+    "upperwear"
+  ],
+  "backbone": "resnet18"
+}

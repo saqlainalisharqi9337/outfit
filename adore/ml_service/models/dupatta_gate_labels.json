@@ -1,0 +1,19 @@
+{
+  "classes": [
+    "dupatta",
+    "bag",
+    "belt"
+  ],
+  "index": {
+    "dupatta": 0,
+    "bag": 1,
+    "belt": 2
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\dupatta_gate",
+  "sources": [
+    "Fashionpedia / Wikimedia dupatta crops",
+    "Hugging Face fashion-product-images Dupatta and Stoles",
+    "local bags and belts as hard negatives"
+  ]
+}

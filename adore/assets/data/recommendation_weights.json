@@ -1,0 +1,9 @@
+{
+  "weather": 0.32,
+  "culture": 0.12,
+  "occasion": 0.22,
+  "color": 0.10,
+  "preference": 0.08,
+  "wardrobe": 0.08,
+  "bodyType": 0.08
+}

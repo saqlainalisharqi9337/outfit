@@ -1,0 +1,81 @@
+{
+  "root": "D:\\fyp project\\dataset",
+  "task": "trousers vs shorts vs skirt",
+  "class_order": [
+    "trousers",
+    "shorts",
+    "skirt"
+  ],
+  "index": {
+    "trousers": 0,
+    "shorts": 1,
+    "skirt": 2
+  },
+  "display": {
+    "trousers": "Trousers/Pants",
+    "shorts": "Shorts",
+    "skirt": "Skirt"
+  },
+  "sources": [
+    {
+      "folder": "bottomwear/pants",
+      "class": "trousers"
+    },
+    {
+      "folder": "bottomwear/jeans",
+      "class": "trousers"
+    },
+    {
+      "folder": "bottomwear/shorts",
+      "class": "shorts"
+    },
+    {
+      "folder": "bottomwear/skirt",
+      "class": "skirt"
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 10582,
+      "classes": {
+        "trousers": 3929,
+        "shorts": 3574,
+        "skirt": 3079
+      },
+      "tiny_files": 0
+    },
+    "val": {
+      "images": 1223,
+      "classes": {
+        "trousers": 432,
+        "shorts": 421,
+        "skirt": 370
+      },
+      "tiny_files": 0
+    },
+    "test": {
+      "images": 1313,
+      "classes": {
+        "trousers": 476,
+        "shorts": 453,
+        "skirt": 384
+      },
+      "tiny_files": 0
+    }
+  },
+  "issues": [
+    "Possible near-duplicate leakage across splits (train/val=101, train/test=97). Trainer drops exact prefix duplicates inside a split only.",
+    "Folder labels are trusted. If palazzo pants were saved under skirt, move that file - this trainer does not guess from filenames."
+  ],
+  "notes": [
+    "No bottomwear/jeans folder today. Denim is inside bottomwear/pants and is trained as trousers.",
+    "No palazzo/mini/pleated subfolders. Do not invent them. Variants stay in pants, shorts, or skirt.",
+    "Do not invent palazzo/mini/pleated folders. Variants stay in pants, shorts, or skirt. Filenames are never used as labels.",
+    "Do not vertically flip or crop the hem: crotch gap and hem length separate pants, shorts, and skirts.",
+    "This specialist does not classify dresses. Long dress stays on the dress/pants/skirt silhouette head."
+  ],
+  "leakage": {
+    "train_val_prefix_overlap": 101,
+    "train_test_prefix_overlap": 97
+  }
+}

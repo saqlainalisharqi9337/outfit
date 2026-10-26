@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "shoes",
+    "flats",
+    "sneakers",
+    "heels"
+  ],
+  "sandals": "imagenet_only_no_folder",
+  "category": {
+    "shoes": "footwear",
+    "flats": "footwear",
+    "sneakers": "footwear",
+    "heels": "footwear",
+    "sandals": "footwear"
+  },
+  "backbone": "resnet18",
+  "imageSize": 224
+}

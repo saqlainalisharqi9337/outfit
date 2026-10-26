@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "flats",
+    "other"
+  ],
+  "index": {
+    "flats": 0,
+    "other": 1
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\flats_gate",
+  "sources": [
+    "local flats",
+    "Hugging Face fashion-product-images Flats",
+    "Fashionpedia hat/garment crops as other",
+    "hat, sneaker, heel, bag, shirt hard negatives"
+  ]
+}

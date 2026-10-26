@@ -1,0 +1,458 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.7199,
+      "val_acc": 0.8853,
+      "val_macro_f1": 0.8848,
+      "per_class": {
+        "shirt": {
+          "precision": 0.7558,
+          "recall": 0.8904,
+          "f1": 0.8176,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9297,
+          "recall": 0.7854,
+          "f1": 0.8515,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.9353,
+          "recall": 0.9476,
+          "f1": 0.9414,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.9059,
+          "recall": 0.8356,
+          "f1": 0.8694,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.8871,
+          "recall": 0.9607,
+          "f1": 0.9224,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.9282,
+          "recall": 0.8858,
+          "f1": 0.9065,
+          "support": 219
+        }
+      },
+      "seconds": 1704.2
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.8052,
+      "val_acc": 0.8876,
+      "val_macro_f1": 0.8865,
+      "per_class": {
+        "shirt": {
+          "precision": 0.8586,
+          "recall": 0.7489,
+          "f1": 0.8,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9317,
+          "recall": 0.8721,
+          "f1": 0.9009,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.9136,
+          "recall": 0.9694,
+          "f1": 0.9407,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.7852,
+          "recall": 0.9178,
+          "f1": 0.8463,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.9535,
+          "recall": 0.8952,
+          "f1": 0.9234,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.8973,
+          "recall": 0.9178,
+          "f1": 0.9074,
+          "support": 219
+        }
+      },
+      "seconds": 3344.7
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.8424,
+      "val_acc": 0.901,
+      "val_macro_f1": 0.9004,
+      "per_class": {
+        "shirt": {
+          "precision": 0.819,
+          "recall": 0.8676,
+          "f1": 0.8426,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9394,
+          "recall": 0.8493,
+          "f1": 0.8921,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.902,
+          "recall": 0.9651,
+          "f1": 0.9325,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.9126,
+          "recall": 0.8584,
+          "f1": 0.8847,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.927,
+          "recall": 0.9432,
+          "f1": 0.9351,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.9136,
+          "recall": 0.9178,
+          "f1": 0.9157,
+          "support": 219
+        }
+      },
+      "seconds": 1259.2
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.8588,
+      "val_acc": 0.8988,
+      "val_macro_f1": 0.8985,
+      "per_class": {
+        "shirt": {
+          "precision": 0.7902,
+          "recall": 0.8082,
+          "f1": 0.7991,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.8809,
+          "recall": 0.9452,
+          "f1": 0.9119,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.9283,
+          "recall": 0.9607,
+          "f1": 0.9442,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.8848,
+          "recall": 0.8767,
+          "f1": 0.8807,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.9541,
+          "recall": 0.9083,
+          "f1": 0.9306,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.9606,
+          "recall": 0.8904,
+          "f1": 0.9242,
+          "support": 219
+        }
+      },
+      "seconds": 1258.5
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.8677,
+      "val_acc": 0.916,
+      "val_macro_f1": 0.9152,
+      "per_class": {
+        "shirt": {
+          "precision": 0.9231,
+          "recall": 0.8219,
+          "f1": 0.8696,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9159,
+          "recall": 0.895,
+          "f1": 0.9053,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.952,
+          "recall": 0.952,
+          "f1": 0.952,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.8468,
+          "recall": 0.9589,
+          "f1": 0.8994,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.9481,
+          "recall": 0.9563,
+          "f1": 0.9522,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.9171,
+          "recall": 0.9087,
+          "f1": 0.9128,
+          "support": 219
+        }
+      },
+      "seconds": 1324.1
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.8808,
+      "val_acc": 0.9198,
+      "val_macro_f1": 0.9185,
+      "per_class": {
+        "shirt": {
+          "precision": 0.9468,
+          "recall": 0.8128,
+          "f1": 0.8747,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9143,
+          "recall": 0.8767,
+          "f1": 0.8951,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.9612,
+          "recall": 0.9738,
+          "f1": 0.9675,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.8761,
+          "recall": 0.9361,
+          "f1": 0.9051,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.9449,
+          "recall": 0.9738,
+          "f1": 0.9591,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.8803,
+          "recall": 0.9406,
+          "f1": 0.9095,
+          "support": 219
+        }
+      },
+      "seconds": 1228.1
+    },
+    {
+      "epoch": 7,
+      "train_acc": 0.8992,
+      "val_acc": 0.9258,
+      "val_macro_f1": 0.9249,
+      "per_class": {
+        "shirt": {
+          "precision": 0.9082,
+          "recall": 0.8584,
+          "f1": 0.8826,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9018,
+          "recall": 0.9224,
+          "f1": 0.912,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.9451,
+          "recall": 0.9782,
+          "f1": 0.9614,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.933,
+          "recall": 0.8904,
+          "f1": 0.9112,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.9362,
+          "recall": 0.9607,
+          "f1": 0.9483,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.9279,
+          "recall": 0.9406,
+          "f1": 0.9342,
+          "support": 219
+        }
+      },
+      "seconds": 969.5
+    },
+    {
+      "epoch": 8,
+      "train_acc": 0.8949,
+      "val_acc": 0.904,
+      "val_macro_f1": 0.9029,
+      "per_class": {
+        "shirt": {
+          "precision": 0.9194,
+          "recall": 0.7808,
+          "f1": 0.8444,
+          "support": 219
+        },
+        "t-shirt": {
+          "precision": 0.9083,
+          "recall": 0.9041,
+          "f1": 0.9062,
+          "support": 219
+        },
+        "hoodie": {
+          "precision": 0.8992,
+          "recall": 0.9738,
+          "f1": 0.935,
+          "support": 229
+        },
+        "jacket": {
+          "precision": 0.8487,
+          "recall": 0.9224,
+          "f1": 0.884,
+          "support": 219
+        },
+        "top": {
+          "precision": 0.9543,
+          "recall": 0.9127,
+          "f1": 0.933,
+          "support": 229
+        },
+        "dress": {
+          "precision": 0.9022,
+          "recall": 0.9269,
+          "f1": 0.9144,
+          "support": 219
+        }
+      },
+      "seconds": 1252.6
+    }
+  ],
+  "best_val_macro_f1": 0.9249495932182427,
+  "test": {
+    "loss": 0.6032368502338072,
+    "accuracy": 0.9002998500749625,
+    "macro_f1": 0.8991523537754008,
+    "per_class": {
+      "shirt": {
+        "precision": 0.8689,
+        "recall": 0.8174,
+        "f1": 0.8424,
+        "support": 219
+      },
+      "t-shirt": {
+        "precision": 0.9363,
+        "recall": 0.8721,
+        "f1": 0.9031,
+        "support": 219
+      },
+      "hoodie": {
+        "precision": 0.916,
+        "recall": 0.952,
+        "f1": 0.9336,
+        "support": 229
+      },
+      "jacket": {
+        "precision": 0.9158,
+        "recall": 0.8447,
+        "f1": 0.8789,
+        "support": 219
+      },
+      "top": {
+        "precision": 0.8857,
+        "recall": 0.9476,
+        "f1": 0.9156,
+        "support": 229
+      },
+      "dress": {
+        "precision": 0.8828,
+        "recall": 0.9635,
+        "f1": 0.9214,
+        "support": 219
+      }
+    },
+    "confusion": [
+      [
+        179,
+        9,
+        3,
+        9,
+        5,
+        14
+      ],
+      [
+        8,
+        191,
+        1,
+        5,
+        9,
+        5
+      ],
+      [
+        0,
+        0,
+        218,
+        0,
+        11,
+        0
+      ],
+      [
+        16,
+        2,
+        9,
+        185,
+        2,
+        5
+      ],
+      [
+        0,
+        1,
+        7,
+        0,
+        217,
+        4
+      ],
+      [
+        3,
+        1,
+        0,
+        3,
+        1,
+        211
+      ]
+    ]
+  }
+}

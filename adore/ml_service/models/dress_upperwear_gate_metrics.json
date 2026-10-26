@@ -1,0 +1,204 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.8856,
+      "val": {
+        "accuracy": 0.964957264957265,
+        "macro_f1": 0.9600243004252575,
+        "per_class": {
+          "dress": {
+            "precision": 0.9229,
+            "recall": 0.9703,
+            "f1": 0.946,
+            "support": 370
+          },
+          "upperwear": {
+            "precision": 0.9859,
+            "recall": 0.9625,
+            "f1": 0.9741,
+            "support": 800
+          }
+        },
+        "confusion": [
+          [
+            359,
+            11
+          ],
+          [
+            30,
+            770
+          ]
+        ],
+        "loss": 0.10013645253438726
+      },
+      "seconds": 440.4
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.9506,
+      "val": {
+        "accuracy": 0.9717948717948718,
+        "macro_f1": 0.9678683509498435,
+        "per_class": {
+          "dress": {
+            "precision": 0.9309,
+            "recall": 0.9838,
+            "f1": 0.9566,
+            "support": 370
+          },
+          "upperwear": {
+            "precision": 0.9923,
+            "recall": 0.9663,
+            "f1": 0.9791,
+            "support": 800
+          }
+        },
+        "confusion": [
+          [
+            364,
+            6
+          ],
+          [
+            27,
+            773
+          ]
+        ],
+        "loss": 0.09193660033245882
+      },
+      "seconds": 405.3
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.9631,
+      "val": {
+        "accuracy": 0.9769230769230769,
+        "macro_f1": 0.9734152447876123,
+        "per_class": {
+          "dress": {
+            "precision": 0.9573,
+            "recall": 0.9703,
+            "f1": 0.9638,
+            "support": 370
+          },
+          "upperwear": {
+            "precision": 0.9862,
+            "recall": 0.98,
+            "f1": 0.9831,
+            "support": 800
+          }
+        },
+        "confusion": [
+          [
+            359,
+            11
+          ],
+          [
+            16,
+            784
+          ]
+        ],
+        "loss": 0.08072875184683591
+      },
+      "seconds": 397.3
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.9694,
+      "val": {
+        "accuracy": 0.9752136752136752,
+        "macro_f1": 0.9716069559192342,
+        "per_class": {
+          "dress": {
+            "precision": 0.9452,
+            "recall": 0.9784,
+            "f1": 0.9615,
+            "support": 370
+          },
+          "upperwear": {
+            "precision": 0.9898,
+            "recall": 0.9738,
+            "f1": 0.9817,
+            "support": 800
+          }
+        },
+        "confusion": [
+          [
+            362,
+            8
+          ],
+          [
+            21,
+            779
+          ]
+        ],
+        "loss": 0.07793791045387014
+      },
+      "seconds": 397.3
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.9794,
+      "val": {
+        "accuracy": 0.9752136752136752,
+        "macro_f1": 0.9715270895449117,
+        "per_class": {
+          "dress": {
+            "precision": 0.9499,
+            "recall": 0.973,
+            "f1": 0.9613,
+            "support": 370
+          },
+          "upperwear": {
+            "precision": 0.9874,
+            "recall": 0.9762,
+            "f1": 0.9818,
+            "support": 800
+          }
+        },
+        "confusion": [
+          [
+            360,
+            10
+          ],
+          [
+            19,
+            781
+          ]
+        ],
+        "loss": 0.07729461363787389
+      },
+      "seconds": 394.7
+    }
+  ],
+  "best_val_macro_f1": 0.9734152447876123,
+  "test": {
+    "accuracy": 0.9726426076833528,
+    "macro_f1": 0.9607020925043133,
+    "per_class": {
+      "dress": {
+        "precision": 0.9427,
+        "recall": 0.9354,
+        "f1": 0.939,
+        "support": 387
+      },
+      "upperwear": {
+        "precision": 0.9813,
+        "recall": 0.9835,
+        "f1": 0.9824,
+        "support": 1331
+      }
+    },
+    "confusion": [
+      [
+        362,
+        25
+      ],
+      [
+        22,
+        1309
+      ]
+    ],
+    "loss": 0.06909075546120667
+  }
+}

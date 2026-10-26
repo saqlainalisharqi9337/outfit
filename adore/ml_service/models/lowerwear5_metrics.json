@@ -1,0 +1,391 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.7781,
+      "val_acc": 0.8613,
+      "val_macro_f1": 0.7737,
+      "per_class": {
+        "trousers": {
+          "precision": 0.885,
+          "recall": 0.9132,
+          "f1": 0.8989,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9296,
+          "recall": 0.8447,
+          "f1": 0.8852,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9069,
+          "recall": 0.8447,
+          "f1": 0.8747,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.3714,
+          "recall": 0.7222,
+          "f1": 0.4906,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.64,
+          "recall": 0.8205,
+          "f1": 0.7191,
+          "support": 39
+        }
+      },
+      "seconds": 841.5
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.8583,
+      "val_acc": 0.9174,
+      "val_macro_f1": 0.8587,
+      "per_class": {
+        "trousers": {
+          "precision": 0.9619,
+          "recall": 0.9224,
+          "f1": 0.9417,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9608,
+          "recall": 0.895,
+          "f1": 0.9267,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9052,
+          "recall": 0.9589,
+          "f1": 0.9313,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.6522,
+          "recall": 0.8333,
+          "f1": 0.7317,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.7111,
+          "recall": 0.8205,
+          "f1": 0.7619,
+          "support": 39
+        }
+      },
+      "seconds": 860.0
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.8809,
+      "val_acc": 0.9104,
+      "val_macro_f1": 0.8723,
+      "per_class": {
+        "trousers": {
+          "precision": 0.9491,
+          "recall": 0.9361,
+          "f1": 0.9425,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9688,
+          "recall": 0.8493,
+          "f1": 0.9051,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.8745,
+          "recall": 0.9543,
+          "f1": 0.9127,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.8667,
+          "recall": 0.7222,
+          "f1": 0.7879,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.7115,
+          "recall": 0.9487,
+          "f1": 0.8132,
+          "support": 39
+        }
+      },
+      "seconds": 753.8
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.8957,
+      "val_acc": 0.902,
+      "val_macro_f1": 0.7936,
+      "per_class": {
+        "trousers": {
+          "precision": 0.9321,
+          "recall": 0.9406,
+          "f1": 0.9364,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9178,
+          "recall": 0.9178,
+          "f1": 0.9178,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9663,
+          "recall": 0.9178,
+          "f1": 0.9415,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.4444,
+          "recall": 0.8889,
+          "f1": 0.5926,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.6667,
+          "recall": 0.5128,
+          "f1": 0.5797,
+          "support": 39
+        }
+      },
+      "seconds": 723.3
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.9046,
+      "val_acc": 0.9216,
+      "val_macro_f1": 0.8509,
+      "per_class": {
+        "trousers": {
+          "precision": 0.9452,
+          "recall": 0.9452,
+          "f1": 0.9452,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9619,
+          "recall": 0.9224,
+          "f1": 0.9417,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9358,
+          "recall": 0.9315,
+          "f1": 0.9336,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.5517,
+          "recall": 0.8889,
+          "f1": 0.6809,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.7632,
+          "recall": 0.7436,
+          "f1": 0.7532,
+          "support": 39
+        }
+      },
+      "seconds": 494.1
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.9098,
+      "val_acc": 0.9286,
+      "val_macro_f1": 0.8714,
+      "per_class": {
+        "trousers": {
+          "precision": 0.971,
+          "recall": 0.9178,
+          "f1": 0.9437,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9575,
+          "recall": 0.9269,
+          "f1": 0.942,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9254,
+          "recall": 0.9635,
+          "f1": 0.9441,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.6154,
+          "recall": 0.8889,
+          "f1": 0.7273,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.7805,
+          "recall": 0.8205,
+          "f1": 0.8,
+          "support": 39
+        }
+      },
+      "seconds": 501.4
+    },
+    {
+      "epoch": 7,
+      "train_acc": 0.9196,
+      "val_acc": 0.923,
+      "val_macro_f1": 0.8563,
+      "per_class": {
+        "trousers": {
+          "precision": 0.9539,
+          "recall": 0.9452,
+          "f1": 0.9495,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9655,
+          "recall": 0.895,
+          "f1": 0.9289,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9327,
+          "recall": 0.9498,
+          "f1": 0.9412,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.65,
+          "recall": 0.7222,
+          "f1": 0.6842,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.6863,
+          "recall": 0.8974,
+          "f1": 0.7778,
+          "support": 39
+        }
+      },
+      "seconds": 506.5
+    },
+    {
+      "epoch": 8,
+      "train_acc": 0.9198,
+      "val_acc": 0.9328,
+      "val_macro_f1": 0.8883,
+      "per_class": {
+        "trousers": {
+          "precision": 0.9372,
+          "recall": 0.9543,
+          "f1": 0.9457,
+          "support": 219
+        },
+        "shorts": {
+          "precision": 0.9617,
+          "recall": 0.9178,
+          "f1": 0.9393,
+          "support": 219
+        },
+        "skirt": {
+          "precision": 0.9452,
+          "recall": 0.9452,
+          "f1": 0.9452,
+          "support": 219
+        },
+        "shalwar": {
+          "precision": 0.7778,
+          "recall": 0.7778,
+          "f1": 0.7778,
+          "support": 18
+        },
+        "leggings": {
+          "precision": 0.7778,
+          "recall": 0.8974,
+          "f1": 0.8333,
+          "support": 39
+        }
+      },
+      "seconds": 502.9
+    }
+  ],
+  "best_val_macro_f1": 0.8882540568955655,
+  "test": {
+    "loss": 0.17255303027833543,
+    "accuracy": 0.9495798319327731,
+    "macro_f1": 0.9319852535353779,
+    "per_class": {
+      "trousers": {
+        "precision": 0.968,
+        "recall": 0.968,
+        "f1": 0.968,
+        "support": 219
+      },
+      "shorts": {
+        "precision": 0.9537,
+        "recall": 0.9406,
+        "f1": 0.9471,
+        "support": 219
+      },
+      "skirt": {
+        "precision": 0.9581,
+        "recall": 0.9406,
+        "f1": 0.9493,
+        "support": 219
+      },
+      "shalwar": {
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "support": 18
+      },
+      "leggings": {
+        "precision": 0.7959,
+        "recall": 1.0,
+        "f1": 0.8864,
+        "support": 39
+      }
+    },
+    "confusion": [
+      [
+        212,
+        0,
+        1,
+        0,
+        6
+      ],
+      [
+        5,
+        206,
+        8,
+        0,
+        0
+      ],
+      [
+        2,
+        10,
+        206,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        39
+      ]
+    ]
+  }
+}

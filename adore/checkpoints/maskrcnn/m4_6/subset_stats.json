@@ -1,0 +1,40 @@
+{
+  "train_images": 1000,
+  "val_images": 150,
+  "train_histogram": {
+    "shirt": 209,
+    "jacket": 332,
+    "sweater": 88,
+    "trousers": 355,
+    "shorts": 120,
+    "skirt": 140,
+    "dress": 238,
+    "jumpsuit": 77,
+    "shoes": 1187,
+    "bag": 281,
+    "hat": 147,
+    "belt": 234,
+    "scarf": 101,
+    "watch": 165,
+    "sunglasses": 219
+  },
+  "val_histogram": {
+    "shirt": 27,
+    "jacket": 43,
+    "sweater": 13,
+    "trousers": 39,
+    "shorts": 24,
+    "skirt": 28,
+    "dress": 33,
+    "jumpsuit": 12,
+    "shoes": 198,
+    "bag": 57,
+    "hat": 22,
+    "belt": 28,
+    "scarf": 13,
+    "watch": 24,
+    "sunglasses": 29
+  },
+  "subset_mode": "class_aware",
+  "seed": 42
+}

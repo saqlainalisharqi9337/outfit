@@ -1,0 +1,78 @@
+{
+  "root": "D:\\fyp project\\dataset",
+  "task": "bag vs hat vs skirt vs shoes (jewellery has no folder)",
+  "class_order": [
+    "bag",
+    "hat",
+    "skirt",
+    "shoes"
+  ],
+  "display": {
+    "bag": "Bag",
+    "hat": "Hat",
+    "skirt": "Skirt",
+    "shoes": "Shoes",
+    "jewelry": "Jewellery"
+  },
+  "splits": {
+    "train": {
+      "images": 21413,
+      "classes": {
+        "bag": 3184,
+        "hat": 2383,
+        "skirt": 3314,
+        "shoes": 12532,
+        "jewelry": 0
+      },
+      "footwear_leaves": {
+        "flats": 3465,
+        "heels": 3464,
+        "shoes": 2091,
+        "sneakers": 3512
+      }
+    },
+    "val": {
+      "images": 2641,
+      "classes": {
+        "bag": 398,
+        "hat": 280,
+        "skirt": 398,
+        "shoes": 1565,
+        "jewelry": 0
+      },
+      "footwear_leaves": {
+        "flats": 433,
+        "heels": 433,
+        "shoes": 260,
+        "sneakers": 439
+      }
+    },
+    "test": {
+      "images": 2673,
+      "classes": {
+        "bag": 399,
+        "hat": 293,
+        "skirt": 412,
+        "shoes": 1569,
+        "jewelry": 0
+      },
+      "footwear_leaves": {
+        "flats": 434,
+        "heels": 434,
+        "shoes": 261,
+        "sneakers": 440
+      }
+    }
+  },
+  "issues": [
+    "No jewellery folder. Chain-strap bags must stay Bag.",
+    "Class imbalance: bag=3184 shoes=12532. Trainer caps rivals near the bag count and uses class weights."
+  ],
+  "notes": [
+    "accessories/bag exists and is large enough to train Bag.",
+    "accessories/hat and bottomwear/skirt are hard negatives so a tote is not learned as a skirt and a backpack is not a hat.",
+    "There is no accessories/jewelry folder. Jewellery cannot be a trained class until those photos are added. Chain-strap bags must not be labelled jewellery.",
+    "Footwear is ~4\u00d7 bags. Training caps rivals near the bag count and uses class weights.",
+    "Do not vertically flip or heavily crop: that hides handles and the bag body vs a shoe sole or a skirt hem."
+  ]
+}

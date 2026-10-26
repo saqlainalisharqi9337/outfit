@@ -1,0 +1,46 @@
+{
+  "classes": [
+    "bag",
+    "belt",
+    "scarf",
+    "dupatta",
+    "hat",
+    "hijab",
+    "jewelry",
+    "sunglasses"
+  ],
+  "index": {
+    "bag": 0,
+    "belt": 1,
+    "scarf": 2,
+    "dupatta": 3,
+    "hat": 4,
+    "hijab": 5,
+    "jewelry": 6,
+    "sunglasses": 7
+  },
+  "display": {
+    "bag": "Bag",
+    "belt": "Belt",
+    "scarf": "Scarf",
+    "dupatta": "Dupatta",
+    "hat": "Hat",
+    "hijab": "Hijab",
+    "jewelry": "Jewellery",
+    "sunglasses": "Sunglasses"
+  },
+  "image_size": 224,
+  "color": "RGB",
+  "normalization": "mobilenet_v2",
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\accessories_open",
+  "sources": [
+    "detection-datasets/fashionpedia",
+    "local Adore bag/hat folders",
+    "Wikimedia Commons"
+  ],
+  "uncertain": {
+    "min_confidence": 0.38,
+    "min_gap": 0.06
+  }
+}

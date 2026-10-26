@@ -1,0 +1,74 @@
+[
+  {
+    "id": "t1",
+    "title": "Ivory kurta + navy trousers",
+    "subtitle": "Pakistani seasonal staple",
+    "description": "A light kurta with tailored trousers stays culturally aligned and weather-flexible for mild days.",
+    "imageUrl": "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=800&q=80",
+    "cultureTags": ["pakistani", "indian"],
+    "colors": ["cream", "navy", "white"],
+    "itemTypes": ["kurta", "trousers", "dupatta"],
+    "season": "spring",
+    "stylingIdea": "Add a beige dupatta for university or family gatherings."
+  },
+  {
+    "id": "t2",
+    "title": "Layered neutrals",
+    "subtitle": "Western cold-weather trend",
+    "description": "Grey coat, white tee, and dark denim is a high-frequency winter combination.",
+    "imageUrl": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=800&q=80",
+    "cultureTags": ["western"],
+    "colors": ["grey", "white", "black"],
+    "itemTypes": ["coat", "t-shirt", "jeans"],
+    "season": "winter",
+    "stylingIdea": "Keep accessories minimal; add a maroon scarf if it is windy."
+  },
+  {
+    "id": "t3",
+    "title": "Modest navy one-piece",
+    "subtitle": "Middle Eastern evening look",
+    "description": "Long navy dresses remain a formal modest option that does not depend on shorts or mini silhouettes.",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "cultureTags": ["middleEastern", "pakistani"],
+    "colors": ["navy", "gold"],
+    "itemTypes": ["modest dress", "abaya"],
+    "season": "all",
+    "stylingIdea": "Pair with closed shoes rather than sandals for formal events."
+  },
+  {
+    "id": "t4",
+    "title": "Earth-tone kaftan",
+    "subtitle": "African occasion dressing",
+    "description": "Olive and gold kaftans work for celebrations while remaining modest.",
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80",
+    "cultureTags": ["african"],
+    "colors": ["olive", "gold", "brown"],
+    "itemTypes": ["kaftan", "dress"],
+    "season": "summer",
+    "stylingIdea": "Choose breathable fabric when temperatures are hot."
+  },
+  {
+    "id": "t5",
+    "title": "Clean shirt and chinos",
+    "subtitle": "East Asian smart casual",
+    "description": "Crisp shirts with tapered trousers stay office-appropriate without loud prints.",
+    "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=800&q=80",
+    "cultureTags": ["eastAsian", "western", "other"],
+    "colors": ["white", "navy", "beige"],
+    "itemTypes": ["shirt", "trousers", "loafers"],
+    "season": "all",
+    "stylingIdea": "Swap loafers for sneakers only on casual days."
+  },
+  {
+    "id": "t6",
+    "title": "Monochrome modest layers",
+    "subtitle": "Cross-culture conservative trend",
+    "description": "Black and cream layers photograph well and respect modest preferences.",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80",
+    "cultureTags": ["all"],
+    "colors": ["black", "cream", "beige"],
+    "itemTypes": ["modest top", "trousers", "scarf"],
+    "season": "autumn",
+    "stylingIdea": "Use a scarf or dupatta instead of a cropped silhouette."
+  }
+]

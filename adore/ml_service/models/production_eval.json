@@ -1,0 +1,104 @@
+{
+  "t-shirt": {
+    "precision": 0.809,
+    "recall": 0.95,
+    "f1": 0.874,
+    "support": 40,
+    "confusions": {
+      "t-shirt": 38,
+      "shirt": 1,
+      "jacket": 1
+    }
+  },
+  "shirt": {
+    "precision": 0.615,
+    "recall": 0.6,
+    "f1": 0.608,
+    "support": 40,
+    "confusions": {
+      "skirt": 1,
+      "dress": 8,
+      "shirt": 24,
+      "shorts": 6,
+      "trousers": 1
+    }
+  },
+  "dress": {
+    "precision": 0.633,
+    "recall": 0.475,
+    "f1": 0.543,
+    "support": 40,
+    "confusions": {
+      "dress": 19,
+      "shirt": 7,
+      "jacket": 4,
+      "trousers": 2,
+      "t-shirt": 4,
+      "skirt": 1,
+      "scarf": 1,
+      "bag": 1,
+      "jewelry": 1
+    }
+  },
+  "trousers": {
+    "precision": 0.912,
+    "recall": 0.775,
+    "f1": 0.838,
+    "support": 40,
+    "confusions": {
+      "trousers": 31,
+      "jacket": 6,
+      "shirt": 3
+    }
+  },
+  "heels": {
+    "precision": 0.9,
+    "recall": 0.225,
+    "f1": 0.36,
+    "support": 40,
+    "confusions": {
+      "jacket": 6,
+      "heels": 9,
+      "sandals": 13,
+      "shirt": 2,
+      "t-shirt": 1,
+      "shorts": 1,
+      "dress": 3,
+      "flats": 1,
+      "skirt": 1,
+      "bag": 1,
+      "sunglasses": 2
+    }
+  },
+  "hat": {
+    "precision": 0.944,
+    "recall": 0.425,
+    "f1": 0.586,
+    "support": 40,
+    "confusions": {
+      "t-shirt": 2,
+      "skirt": 10,
+      "hat": 17,
+      "bag": 3,
+      "shirt": 1,
+      "shorts": 4,
+      "sneakers": 1,
+      "flats": 1,
+      "jacket": 1
+    }
+  },
+  "bag": {
+    "precision": 0.844,
+    "recall": 0.675,
+    "f1": 0.75,
+    "support": 40,
+    "confusions": {
+      "bag": 27,
+      "jacket": 8,
+      "t-shirt": 2,
+      "hat": 1,
+      "heels": 1,
+      "shirt": 1
+    }
+  }
+}

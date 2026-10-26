@@ -1,0 +1,358 @@
+{
+  "humanReviewThreshold": 0.45,
+  "perClass": [
+    {
+      "class": "jacket",
+      "support": 12,
+      "accuracy": 0.75,
+      "hits": 9,
+      "needsHumanReviewRate": 0.0,
+      "meanConfidence": 0.9079,
+      "wrongAs": {
+        "shirt": 1,
+        "skirt": 1,
+        "shorts": 1
+      },
+      "preds": [
+        "jacket",
+        "jacket",
+        "jacket",
+        "shirt",
+        "jacket",
+        "jacket",
+        "skirt",
+        "jacket",
+        "shorts",
+        "jacket",
+        "jacket",
+        "jacket"
+      ],
+      "okLabels": [
+        "jacket"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "shirt",
+      "support": 12,
+      "accuracy": 0.9167,
+      "hits": 11,
+      "needsHumanReviewRate": 0.0833,
+      "meanConfidence": 0.8643,
+      "wrongAs": {
+        "bag": 1
+      },
+      "preds": [
+        "bag",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "shirt",
+        "t-shirt"
+      ],
+      "okLabels": [
+        "shirt",
+        "t-shirt"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "t-shirt",
+      "support": 12,
+      "accuracy": 1.0,
+      "hits": 12,
+      "needsHumanReviewRate": 0.0,
+      "meanConfidence": 0.9534,
+      "wrongAs": {},
+      "preds": [
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt",
+        "t-shirt"
+      ],
+      "okLabels": [
+        "shirt",
+        "t-shirt"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "hat",
+      "support": 12,
+      "accuracy": 0.4167,
+      "hits": 5,
+      "needsHumanReviewRate": 0.25,
+      "meanConfidence": 0.7037,
+      "wrongAs": {
+        "jacket": 2,
+        "shirt": 1,
+        "skirt": 3,
+        "shorts": 1
+      },
+      "preds": [
+        "hat",
+        "jacket",
+        "shirt",
+        "hat",
+        "hat",
+        "skirt",
+        "hat",
+        "skirt",
+        "jacket",
+        "shorts",
+        "skirt",
+        "hat"
+      ],
+      "okLabels": [
+        "hat"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "bag",
+      "support": 12,
+      "accuracy": 1.0,
+      "hits": 12,
+      "needsHumanReviewRate": 0.1667,
+      "meanConfidence": 0.6673,
+      "wrongAs": {},
+      "preds": [
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag",
+        "bag"
+      ],
+      "okLabels": [
+        "bag"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "heels",
+      "support": 12,
+      "accuracy": 0.1667,
+      "hits": 2,
+      "needsHumanReviewRate": 0.0833,
+      "meanConfidence": 0.8045,
+      "wrongAs": {
+        "jacket": 4,
+        "skirt": 2,
+        "shorts": 2,
+        "bag": 1,
+        "jewelry": 1
+      },
+      "preds": [
+        "jacket",
+        "sandals",
+        "skirt",
+        "jacket",
+        "skirt",
+        "shorts",
+        "sandals",
+        "bag",
+        "shorts",
+        "jewelry",
+        "jacket",
+        "jacket"
+      ],
+      "okLabels": [
+        "heels",
+        "sandals"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "sandals",
+      "support": 0,
+      "accuracy": 0.0,
+      "hits": 0,
+      "needsHumanReviewRate": 0.0,
+      "meanConfidence": 0.0,
+      "wrongAs": {},
+      "preds": [],
+      "okLabels": [
+        "flats",
+        "heels",
+        "sandals"
+      ],
+      "regressionGuard": false
+    },
+    {
+      "class": "trousers",
+      "support": 12,
+      "accuracy": 0.6667,
+      "hits": 8,
+      "needsHumanReviewRate": 0.0,
+      "meanConfidence": 0.8359,
+      "wrongAs": {
+        "jacket": 1,
+        "shorts": 1,
+        "t-shirt": 1,
+        "skirt": 1
+      },
+      "preds": [
+        "trousers",
+        "trousers",
+        "trousers",
+        "jacket",
+        "trousers",
+        "trousers",
+        "trousers",
+        "trousers",
+        "trousers",
+        "shorts",
+        "t-shirt",
+        "skirt"
+      ],
+      "okLabels": [
+        "jeans",
+        "trousers"
+      ],
+      "regressionGuard": true
+    },
+    {
+      "class": "shorts",
+      "support": 12,
+      "accuracy": 0.6667,
+      "hits": 8,
+      "needsHumanReviewRate": 0.0833,
+      "meanConfidence": 0.9029,
+      "wrongAs": {
+        "jacket": 2,
+        "skirt": 1,
+        "bag": 1
+      },
+      "preds": [
+        "shorts",
+        "jacket",
+        "shorts",
+        "shorts",
+        "skirt",
+        "bag",
+        "jacket",
+        "shorts",
+        "shorts",
+        "shorts",
+        "shorts",
+        "shorts"
+      ],
+      "okLabels": [
+        "shorts"
+      ],
+      "regressionGuard": true
+    },
+    {
+      "class": "skirt",
+      "support": 12,
+      "accuracy": 0.25,
+      "hits": 3,
+      "needsHumanReviewRate": 0.1667,
+      "meanConfidence": 0.744,
+      "wrongAs": {
+        "jacket": 2,
+        "bag": 1,
+        "scarf": 1,
+        "trousers": 1,
+        "shorts": 2,
+        "dress": 1,
+        "shirt": 1
+      },
+      "preds": [
+        "jacket",
+        "skirt",
+        "bag",
+        "scarf",
+        "trousers",
+        "shorts",
+        "dress",
+        "skirt",
+        "skirt",
+        "shirt",
+        "shorts",
+        "jacket"
+      ],
+      "okLabels": [
+        "skirt"
+      ],
+      "regressionGuard": true
+    },
+    {
+      "class": "sneakers",
+      "support": 12,
+      "accuracy": 0.25,
+      "hits": 3,
+      "needsHumanReviewRate": 0.0833,
+      "meanConfidence": 0.7579,
+      "wrongAs": {
+        "shirt": 2,
+        "t-shirt": 1,
+        "skirt": 1,
+        "jacket": 5
+      },
+      "preds": [
+        "shirt",
+        "t-shirt",
+        "sneakers",
+        "shirt",
+        "sneakers",
+        "skirt",
+        "jacket",
+        "sneakers",
+        "jacket",
+        "jacket",
+        "jacket",
+        "jacket"
+      ],
+      "okLabels": [
+        "shoes",
+        "sneakers"
+      ],
+      "regressionGuard": true
+    }
+  ],
+  "summary": {
+    "classes": 11,
+    "macroAccuracy": 0.553,
+    "confusionTargets": {
+      "jacket": 0.75,
+      "t-shirt": 1.0,
+      "hat": 0.4167,
+      "bag": 1.0,
+      "heels": 0.1667
+    },
+    "regressionGuards": {
+      "trousers": 0.6667,
+      "shorts": 0.6667,
+      "skirt": 0.25,
+      "sneakers": 0.25
+    }
+  },
+  "notes": [
+    "Uses existing Adore dataset + previously imported CC0 clothing-dataset images.",
+    "DeepFashion2 / Fashionpedia / iMaterialist were not bundled; Fashion-MNIST is too low-res for this pipeline.",
+    "Lowerwear and sneaker classification logic were not modified.",
+    "Predictions with confidence < 0.45 set needsHumanReview=true."
+  ]
+}

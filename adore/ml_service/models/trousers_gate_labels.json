@@ -1,0 +1,19 @@
+{
+  "classes": [
+    "trousers",
+    "dress",
+    "shirt"
+  ],
+  "index": {
+    "trousers": 0,
+    "dress": 1,
+    "shirt": 2
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\trousers_gate",
+  "sources": [
+    "local pants / dress / shirt product photos",
+    "Hugging Face fashion-product-images Trousers, Jeans, Dresses, Shirts",
+    "Fashionpedia pants, dress, and shirt/top crops"
+  ]
+}

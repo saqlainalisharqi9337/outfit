@@ -1,0 +1,22 @@
+{
+  "classes": [
+    "shirt",
+    "t-shirt",
+    "jacket",
+    "pants"
+  ],
+  "displayName": {
+    "shirt": "Shirt",
+    "t-shirt": "T-shirt",
+    "jacket": "Jacket",
+    "pants": "Pants/Trousers"
+  },
+  "backbone": "resnet18",
+  "imageSize": 224,
+  "category": {
+    "shirt": "upperwear",
+    "t-shirt": "upperwear",
+    "jacket": "upperwear",
+    "pants": "lowerwear"
+  }
+}

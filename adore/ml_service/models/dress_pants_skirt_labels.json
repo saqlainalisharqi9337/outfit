@@ -1,0 +1,44 @@
+{
+  "classes": [
+    "dress",
+    "skirt",
+    "trousers"
+  ],
+  "index": {
+    "dress": 0,
+    "skirt": 1,
+    "trousers": 2
+  },
+  "display": {
+    "dress": "Long Dress",
+    "skirt": "Long Skirt",
+    "trousers": "Pants/Trousers"
+  },
+  "image_size": 224,
+  "color": "RGB",
+  "normalization": "mobilenet_v2",
+  "preprocess": "x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset",
+  "sources": [
+    {
+      "folder": "one-piece/dress",
+      "class": "dress"
+    },
+    {
+      "folder": "bottomwear/skirt",
+      "class": "skirt"
+    },
+    {
+      "folder": "bottomwear/pants",
+      "class": "trousers"
+    },
+    {
+      "folder": "bottomwear/jeans",
+      "class": "trousers"
+    }
+  ],
+  "uncertain": {
+    "min_confidence": 0.42,
+    "min_gap": 0.08
+  }
+}

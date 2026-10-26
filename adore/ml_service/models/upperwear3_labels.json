@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "shirt",
+    "t-shirt",
+    "jacket"
+  ],
+  "category": {
+    "shirt": "upperwear",
+    "t-shirt": "upperwear",
+    "jacket": "upperwear"
+  },
+  "backbone": "resnet18",
+  "imageSize": 224
+}

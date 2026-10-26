@@ -1,0 +1,38 @@
+{
+  "images": 64,
+  "tshirt_n": 24,
+  "tshirt_as_tshirt": 20,
+  "tshirt_as_shirt": 2,
+  "shirt_as_shirt": 6,
+  "shirt_as_tshirt": 1,
+  "jacket_as_jacket": 8,
+  "specialist": {
+    "t-shirt->t-shirt": 21,
+    "t-shirt->other": 3,
+    "shirt->other": 7,
+    "shirt->t-shirt": 1,
+    "jacket->other": 8,
+    "hat->other": 7,
+    "hat->t-shirt": 1,
+    "bag->other": 8,
+    "trousers->other": 8
+  },
+  "pipeline": {
+    "t-shirt->t-shirt": 20,
+    "t-shirt->shirt": 2,
+    "t-shirt->skirt": 1,
+    "t-shirt->jacket": 1,
+    "shirt->shirt": 6,
+    "shirt->t-shirt": 1,
+    "shirt->jacket": 1,
+    "jacket->jacket": 8,
+    "hat->shirt": 5,
+    "hat->trousers": 1,
+    "hat->t-shirt": 1,
+    "hat->bag": 1,
+    "bag->bag": 8,
+    "trousers->trousers": 5,
+    "trousers->jacket": 2,
+    "trousers->dupatta": 1
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "accuracy": 0.805,
+  "precision_macro": 0.8411561264822135,
+  "recall_macro": 0.805,
+  "f1_macro": 0.8048197880313346,
+  "per_class": {
+    "bag": {
+      "precision": 0.6363636363636364,
+      "recall": 0.98,
+      "f1": 0.7716535433070866,
+      "support": 50.0,
+      "accuracy": 0.98
+    },
+    "hat": {
+      "precision": 0.8409090909090909,
+      "recall": 0.74,
+      "f1": 0.7872340425531915,
+      "support": 50.0,
+      "accuracy": 0.74
+    },
+    "skirt": {
+      "precision": 0.9782608695652174,
+      "recall": 0.9,
+      "f1": 0.9375,
+      "support": 50.0,
+      "accuracy": 0.9
+    },
+    "shoes": {
+      "precision": 0.9090909090909091,
+      "recall": 0.6,
+      "f1": 0.7228915662650602,
+      "support": 50.0,
+      "accuracy": 0.6
+    }
+  },
+  "confusion_matrix": [
+    [
+      49,
+      1,
+      0,
+      0
+    ],
+    [
+      11,
+      37,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      45,
+      2
+    ],
+    [
+      15,
+      5,
+      0,
+      30
+    ]
+  ],
+  "labels": [
+    "bag",
+    "hat",
+    "skirt",
+    "shoes"
+  ],
+  "display": {
+    "bag": "Bag",
+    "hat": "Hat",
+    "skirt": "Skirt",
+    "shoes": "Shoes"
+  },
+  "bag_as_shoes": 0,
+  "bag_as_hat": 1,
+  "bag_as_skirt": 0,
+  "shoes_as_bag": 15,
+  "hat_as_bag": 11,
+  "skirt_as_bag": 2,
+  "probs": null,
+  "uncertain": {
+    "min_confidence": 0.42,
+    "min_gap": 0.08,
+    "source": "default"
+  }
+}

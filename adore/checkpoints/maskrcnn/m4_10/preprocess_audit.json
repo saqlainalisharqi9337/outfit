@@ -1,0 +1,19 @@
+{
+  "train_images": 37887,
+  "orig_width_min": 232,
+  "orig_width_max": 1024,
+  "orig_height_min": 388,
+  "orig_height_max": 1024,
+  "orig_width_median": 682,
+  "orig_height_median": 1024,
+  "model_min_size": 320,
+  "model_max_size": 480,
+  "aspect_ratio_preserved": true,
+  "dataset_resize_before_model": false,
+  "masks_resized_inside_model": true,
+  "random_horizontal_flip": false,
+  "other_augmentation": false,
+  "boxes_shorter_side_under_32px_original": 10408,
+  "boxes_total": 115215,
+  "boxes_shorter_side_under_16px_after_320_480": 13262
+}

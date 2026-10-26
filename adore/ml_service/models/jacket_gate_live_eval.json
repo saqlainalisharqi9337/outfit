@@ -1,0 +1,42 @@
+{
+  "images": 72,
+  "jacket_n": 24,
+  "jacket_as_jacket": 21,
+  "jacket_as_shirt": 3,
+  "jacket_as_hat": 0,
+  "shirt_as_shirt": 5,
+  "shirt_as_jacket": 3,
+  "specialist": {
+    "jacket->jacket": 22,
+    "jacket->other": 2,
+    "shirt->other": 4,
+    "shirt->jacket": 4,
+    "hat->other": 8,
+    "bag->other": 8,
+    "trousers->jacket": 6,
+    "trousers->other": 2,
+    "skirt->jacket": 5,
+    "skirt->other": 3,
+    "dupatta->other": 3,
+    "dupatta->jacket": 5
+  },
+  "pipeline": {
+    "jacket->jacket": 21,
+    "jacket->shirt": 3,
+    "shirt->shirt": 5,
+    "shirt->jacket": 3,
+    "hat->shirt": 6,
+    "hat->trousers": 1,
+    "hat->bag": 1,
+    "bag->bag": 8,
+    "trousers->trousers": 5,
+    "trousers->jacket": 2,
+    "trousers->dupatta": 1,
+    "skirt->jacket": 4,
+    "skirt->skirt": 2,
+    "skirt->shirt": 2,
+    "dupatta->dupatta": 4,
+    "dupatta->skirt": 1,
+    "dupatta->jacket": 3
+  }
+}

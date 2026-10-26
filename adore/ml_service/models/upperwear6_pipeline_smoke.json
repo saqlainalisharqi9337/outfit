@@ -1,0 +1,14 @@
+{
+  "dress": {
+    "n": 12,
+    "accuracy": 0.917,
+    "predCounts": {
+      "dress": 11,
+      "jacket": 1
+    },
+    "sourceCounts": {
+      "upperwear": 11,
+      "jacket_gate": 1
+    }
+  }
+}

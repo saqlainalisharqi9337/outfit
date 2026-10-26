@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "jacket",
+    "other"
+  ],
+  "index": {
+    "jacket": 0,
+    "other": 1
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\jacket_gate",
+  "sources": [
+    "local jackets",
+    "Hugging Face fashion-product-images Jackets and Blazers",
+    "Fashionpedia jacket and coat crops",
+    "shirt, hat, trousers, skirt, bag, dupatta hard negatives"
+  ]
+}

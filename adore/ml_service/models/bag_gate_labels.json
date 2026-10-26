@@ -1,0 +1,19 @@
+{
+  "classes": [
+    "bag",
+    "skirt",
+    "flats"
+  ],
+  "index": {
+    "bag": 0,
+    "skirt": 1,
+    "flats": 2
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\bag_gate",
+    "sources": [
+        "local Adore accessories/bag",
+        "Fashionpedia bag crops (open images)",
+        "local skirts and flats as hard negatives"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "classes": [
+    "skirt",
+    "belt",
+    "hat"
+  ],
+  "index": {
+    "skirt": 0,
+    "belt": 1,
+    "hat": 2
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\skirt_gate",
+  "sources": [
+    "local skirts, hats, and belts",
+    "Hugging Face fashion-product-images Skirts, Caps, Belts",
+    "Fashionpedia skirt, hat, and belt crops"
+  ]
+}

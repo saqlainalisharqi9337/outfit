@@ -1,0 +1,209 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.5067,
+      "val_acc": 0.6406,
+      "val_macro_f1": 0.6064,
+      "per_class": {
+        "shoes": {
+          "precision": 0.522,
+          "recall": 0.4415,
+          "f1": 0.4784,
+          "support": 188
+        },
+        "flats": {
+          "precision": 0.6734,
+          "recall": 0.6143,
+          "f1": 0.6425,
+          "support": 433
+        },
+        "sneakers": {
+          "precision": 0.6522,
+          "recall": 0.7517,
+          "f1": 0.6984,
+          "support": 439
+        }
+      },
+      "seconds": 150.9
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.8133,
+      "val_acc": 0.9198,
+      "val_macro_f1": 0.9109,
+      "per_class": {
+        "shoes": {
+          "precision": 0.8564,
+          "recall": 0.8883,
+          "f1": 0.8721,
+          "support": 188
+        },
+        "flats": {
+          "precision": 0.9213,
+          "recall": 0.9192,
+          "f1": 0.9202,
+          "support": 433
+        },
+        "sneakers": {
+          "precision": 0.9469,
+          "recall": 0.9339,
+          "f1": 0.9404,
+          "support": 439
+        }
+      },
+      "seconds": 259.4
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.904,
+      "val_acc": 0.9236,
+      "val_macro_f1": 0.9124,
+      "per_class": {
+        "shoes": {
+          "precision": 0.8549,
+          "recall": 0.8777,
+          "f1": 0.8661,
+          "support": 188
+        },
+        "flats": {
+          "precision": 0.9599,
+          "recall": 0.8845,
+          "f1": 0.9207,
+          "support": 433
+        },
+        "sneakers": {
+          "precision": 0.9209,
+          "recall": 0.9818,
+          "f1": 0.9504,
+          "support": 439
+        }
+      },
+      "seconds": 257.0
+    },
+    {
+      "epoch": 4,
+      "train_acc": 0.932,
+      "val_acc": 0.9321,
+      "val_macro_f1": 0.9223,
+      "per_class": {
+        "shoes": {
+          "precision": 0.866,
+          "recall": 0.8936,
+          "f1": 0.8796,
+          "support": 188
+        },
+        "flats": {
+          "precision": 0.9224,
+          "recall": 0.933,
+          "f1": 0.9277,
+          "support": 433
+        },
+        "sneakers": {
+          "precision": 0.972,
+          "recall": 0.9476,
+          "f1": 0.9596,
+          "support": 439
+        }
+      },
+      "seconds": 255.9
+    },
+    {
+      "epoch": 5,
+      "train_acc": 0.9587,
+      "val_acc": 0.9349,
+      "val_macro_f1": 0.9227,
+      "per_class": {
+        "shoes": {
+          "precision": 0.845,
+          "recall": 0.8989,
+          "f1": 0.8711,
+          "support": 188
+        },
+        "flats": {
+          "precision": 0.9628,
+          "recall": 0.8961,
+          "f1": 0.9282,
+          "support": 433
+        },
+        "sneakers": {
+          "precision": 0.9497,
+          "recall": 0.9886,
+          "f1": 0.9688,
+          "support": 439
+        }
+      },
+      "seconds": 267.3
+    },
+    {
+      "epoch": 6,
+      "train_acc": 0.9553,
+      "val_acc": 0.9387,
+      "val_macro_f1": 0.9299,
+      "per_class": {
+        "shoes": {
+          "precision": 0.8537,
+          "recall": 0.9309,
+          "f1": 0.8906,
+          "support": 188
+        },
+        "flats": {
+          "precision": 0.9374,
+          "recall": 0.933,
+          "f1": 0.9352,
+          "support": 433
+        },
+        "sneakers": {
+          "precision": 0.9811,
+          "recall": 0.9476,
+          "f1": 0.9641,
+          "support": 439
+        }
+      },
+      "seconds": 258.7
+    }
+  ],
+  "best_val_macro_f1": 0.929949740605657,
+  "test": {
+    "loss": 0.15785436739449443,
+    "accuracy": 0.9454374412041392,
+    "macro_f1": 0.9381123961727601,
+    "per_class": {
+      "shoes": {
+        "precision": 0.8923,
+        "recall": 0.9206,
+        "f1": 0.9062,
+        "support": 189
+      },
+      "flats": {
+        "precision": 0.9447,
+        "recall": 0.9447,
+        "f1": 0.9447,
+        "support": 434
+      },
+      "sneakers": {
+        "precision": 0.97,
+        "recall": 0.9568,
+        "f1": 0.9634,
+        "support": 440
+      }
+    },
+    "confusion": [
+      [
+        174,
+        9,
+        6
+      ],
+      [
+        17,
+        410,
+        7
+      ],
+      [
+        4,
+        15,
+        421
+      ]
+    ]
+  }
+}

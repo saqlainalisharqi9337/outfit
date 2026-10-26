@@ -1,0 +1,20 @@
+{
+  "pipeline": "classify_clothing + parse_outfit",
+  "classify_clothing": {
+    "val_hat": {"n": 20, "hat": 19, "bag": 1},
+    "val_bag": {"n": 16, "bag": 16},
+    "heldout_hat": {"n": 30, "hat": 29, "bag": 1},
+    "heldout_bag": {"n": 16, "bag": 16}
+  },
+  "parse_outfit": {
+    "val_hat": {"n": 8, "hat": 7, "bag": 1},
+    "val_bag": {"n": 6, "bag": 6}
+  },
+  "specialist_test": {
+    "accuracy": 0.9857,
+    "hat_as_hat_bag_shirt": [266, 4, 3],
+    "bag_as_hat": 0,
+    "shirt_as_hat": 0
+  },
+  "note": "bag_gate weights unchanged"
+}

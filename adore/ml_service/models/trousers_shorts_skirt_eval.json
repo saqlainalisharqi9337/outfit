@@ -1,0 +1,78 @@
+{
+  "accuracy": 0.869002284843869,
+  "precision_macro": 0.8757924976630657,
+  "recall_macro": 0.8656986801343054,
+  "f1_macro": 0.8673748354711731,
+  "per_class": {
+    "trousers": {
+      "precision": 0.9670588235294117,
+      "recall": 0.8634453781512605,
+      "f1": 0.9123196448390677,
+      "support": 476.0,
+      "accuracy": 0.8634453781512605
+    },
+    "shorts": {
+      "precision": 0.7902621722846442,
+      "recall": 0.9315673289183223,
+      "f1": 0.8551165146909828,
+      "support": 453.0,
+      "accuracy": 0.9315673289183223
+    },
+    "skirt": {
+      "precision": 0.8700564971751412,
+      "recall": 0.8020833333333334,
+      "f1": 0.8346883468834688,
+      "support": 384.0,
+      "accuracy": 0.8020833333333334
+    }
+  },
+  "confusion_matrix": [
+    [
+      411,
+      46,
+      19
+    ],
+    [
+      4,
+      422,
+      27
+    ],
+    [
+      10,
+      66,
+      308
+    ]
+  ],
+  "labels": [
+    "trousers",
+    "shorts",
+    "skirt"
+  ],
+  "display": {
+    "trousers": "Trousers/Pants",
+    "shorts": "Shorts",
+    "skirt": "Skirt"
+  },
+  "pair_errors": {
+    "counts": {
+      "trousers_as_shorts": 46,
+      "trousers_as_skirt": 19,
+      "shorts_as_trousers": 4,
+      "shorts_as_skirt": 27,
+      "skirt_as_trousers": 10,
+      "skirt_as_shorts": 66
+    },
+    "most_confused": {
+      "pair": "skirt_as_shorts",
+      "errors": 66
+    }
+  },
+  "uncertain": {
+    "min_confidence": 0.62,
+    "min_gap": 0.05,
+    "accuracy": 0.8945993031358885,
+    "coverage": 0.9386753883892068,
+    "confused_pairs": 121,
+    "source": "validation_sweep"
+  }
+}

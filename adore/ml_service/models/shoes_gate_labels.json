@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "shoes",
+    "other"
+  ],
+  "index": {
+    "shoes": 0,
+    "other": 1
+  },
+  "preprocess": "letterbox + x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset\\shoes_gate",
+  "sources": [
+    "local footwear/shoes",
+    "Hugging Face fashion-product-images Formal Shoes",
+    "Fashionpedia hat/garment crops as other",
+    "heels and shirts as hard negatives"
+  ]
+}

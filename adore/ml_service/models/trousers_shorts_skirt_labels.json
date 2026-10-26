@@ -1,0 +1,52 @@
+{
+  "classes": [
+    "trousers",
+    "shorts",
+    "skirt"
+  ],
+  "index": {
+    "trousers": 0,
+    "shorts": 1,
+    "skirt": 2
+  },
+  "display": {
+    "trousers": "Trousers/Pants",
+    "shorts": "Shorts",
+    "skirt": "Skirt"
+  },
+  "image_size": 224,
+  "color": "RGB",
+  "normalization": "mobilenet_v2",
+  "preprocess": "emphasize_lower_body (tall 28%) + lower_structure_crop, x / 127.5 - 1",
+  "dataset": "D:\\fyp project\\dataset",
+  "sources": [
+    {
+      "folder": "bottomwear/pants",
+      "class": "trousers"
+    },
+    {
+      "folder": "bottomwear/jeans",
+      "class": "trousers"
+    },
+    {
+      "folder": "bottomwear/shorts",
+      "class": "shorts"
+    },
+    {
+      "folder": "bottomwear/skirt",
+      "class": "skirt"
+    }
+  ],
+  "uncertain": {
+    "min_confidence": 0.62,
+    "min_gap": 0.05
+  },
+  "threshold_search": {
+    "min_confidence": 0.62,
+    "min_gap": 0.05,
+    "accuracy": 0.8945993031358885,
+    "coverage": 0.9386753883892068,
+    "confused_pairs": 121,
+    "source": "validation_sweep"
+  }
+}

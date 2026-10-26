@@ -1,0 +1,453 @@
+{
+  "n": 13,
+  "primaryColorAccuracy": 1.0,
+  "secondaryColorAccuracy": 1.0,
+  "multiColorDetectionAccuracy": 1.0,
+  "colorDetectionPrecision": 0.917,
+  "colorDetectionRecall": 1.0,
+  "perColor": {
+    "black": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0
+    },
+    "blue": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "cream": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    "dark_green": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "gray": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0
+    },
+    "orange": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "pink": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "red": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    "white": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "solid_black",
+      "item": "dress",
+      "kind": "solid-dark",
+      "actual": {
+        "primary": [
+          "black"
+        ],
+        "secondary": []
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [],
+        "accent": [],
+        "distribution": {
+          "black": 0.9890241811010119
+        },
+        "pattern": "solid",
+        "isMulticolor": false
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\solid_black.png"
+    },
+    {
+      "id": "black_red_white_dress",
+      "item": "dress",
+      "kind": "floral-three-colour",
+      "actual": {
+        "primary": [
+          "black"
+        ],
+        "secondary": [
+          "cream",
+          "dark_red",
+          "maroon",
+          "red",
+          "white"
+        ]
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [
+          "white"
+        ],
+        "accent": [
+          "red"
+        ],
+        "distribution": {
+          "black": 0.7434982293050022,
+          "white": 0.13305112881806108,
+          "red": 0.09550686144311642
+        },
+        "pattern": "floral",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\black_red_white_dress.png"
+    },
+    {
+      "id": "blue_white_striped_shirt",
+      "item": "shirt",
+      "kind": "striped",
+      "actual": {
+        "primary": [
+          "blue",
+          "light_blue",
+          "navy"
+        ],
+        "secondary": [
+          "cream",
+          "silver",
+          "white"
+        ]
+      },
+      "predicted": {
+        "primary": "blue",
+        "secondary": [
+          "cream"
+        ],
+        "accent": [],
+        "distribution": {
+          "blue": 0.4521525147233666,
+          "cream": 0.4397378826001604,
+          "light_blue": 0.05897641496391738
+        },
+        "pattern": "striped",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\blue_white_striped_shirt.png"
+    },
+    {
+      "id": "navy_white_shirt",
+      "item": "shirt",
+      "kind": "striped",
+      "actual": {
+        "primary": [
+          "black",
+          "blue",
+          "navy"
+        ],
+        "secondary": [
+          "cream",
+          "silver",
+          "white"
+        ]
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [
+          "cream"
+        ],
+        "accent": [
+          "gray"
+        ],
+        "distribution": {
+          "black": 0.585750404818045,
+          "cream": 0.3160137496093861,
+          "gray": 0.07653191670691173
+        },
+        "pattern": "striped",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\navy_white_shirt.png"
+    },
+    {
+      "id": "black_gray_trousers",
+      "item": "trousers",
+      "kind": "two-colour",
+      "actual": {
+        "primary": [
+          "black",
+          "gray"
+        ],
+        "secondary": [
+          "black",
+          "gray",
+          "silver"
+        ]
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [
+          "gray",
+          "white"
+        ],
+        "accent": [],
+        "distribution": {
+          "black": 0.46806659099508136,
+          "gray": 0.40631857737419597,
+          "white": 0.12561483163072265
+        },
+        "pattern": "striped",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\black_gray_trousers.png"
+    },
+    {
+      "id": "red_black_bag",
+      "item": "bag",
+      "kind": "two-colour-bag",
+      "actual": {
+        "primary": [
+          "black",
+          "dark_red",
+          "maroon",
+          "red"
+        ],
+        "secondary": [
+          "black",
+          "dark_red",
+          "maroon",
+          "red"
+        ]
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [
+          "red"
+        ],
+        "accent": [],
+        "distribution": {
+          "black": 0.5124378109452736,
+          "red": 0.48756218905472637
+        },
+        "pattern": "gradient",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\red_black_bag.png"
+    },
+    {
+      "id": "green_gold_traditional",
+      "item": "kurta",
+      "kind": "traditional",
+      "actual": {
+        "primary": [
+          "dark_green",
+          "green"
+        ],
+        "secondary": [
+          "beige",
+          "gold",
+          "orange",
+          "yellow"
+        ]
+      },
+      "predicted": {
+        "primary": "dark_green",
+        "secondary": [
+          "orange"
+        ],
+        "accent": [],
+        "distribution": {
+          "dark_green": 0.8487511080982427,
+          "orange": 0.12921729154716588
+        },
+        "pattern": "solid",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\green_gold_traditional.png"
+    },
+    {
+      "id": "pink_white_floral",
+      "item": "dress",
+      "kind": "floral",
+      "actual": {
+        "primary": [
+          "pink",
+          "red"
+        ],
+        "secondary": [
+          "cream",
+          "silver",
+          "white"
+        ]
+      },
+      "predicted": {
+        "primary": "pink",
+        "secondary": [],
+        "accent": [
+          "white"
+        ],
+        "distribution": {
+          "pink": 0.8723393222887662,
+          "white": 0.10222706178216795
+        },
+        "pattern": "solid",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\pink_white_floral.png"
+    },
+    {
+      "id": "black_shirt_blue_wall",
+      "item": "shirt",
+      "kind": "background",
+      "actual": {
+        "primary": [
+          "black"
+        ],
+        "secondary": []
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [],
+        "accent": [],
+        "distribution": {
+          "black": 1.0
+        },
+        "pattern": "solid",
+        "isMulticolor": false
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\black_shirt_blue_wall.png"
+    },
+    {
+      "id": "black_tiny_yellow_logo",
+      "item": "t-shirt",
+      "kind": "tiny-detail",
+      "actual": {
+        "primary": [
+          "black"
+        ],
+        "secondary": []
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [],
+        "accent": [],
+        "distribution": {
+          "black": 0.9836606655755592
+        },
+        "pattern": "solid",
+        "isMulticolor": false
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\black_tiny_yellow_logo.png"
+    },
+    {
+      "id": "checked_black_gray",
+      "item": "shirt",
+      "kind": "checked",
+      "actual": {
+        "primary": [
+          "black",
+          "gray"
+        ],
+        "secondary": [
+          "black",
+          "gray",
+          "silver"
+        ]
+      },
+      "predicted": {
+        "primary": "gray",
+        "secondary": [
+          "black"
+        ],
+        "accent": [],
+        "distribution": {
+          "gray": 0.5330528515646483,
+          "black": 0.4669471484353517
+        },
+        "pattern": "floral",
+        "isMulticolor": true
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\checked_black_gray.png"
+    },
+    {
+      "id": "light_cream",
+      "item": "shirt",
+      "kind": "solid-light",
+      "actual": {
+        "primary": [
+          "beige",
+          "cream",
+          "white"
+        ],
+        "secondary": []
+      },
+      "predicted": {
+        "primary": "cream",
+        "secondary": [],
+        "accent": [],
+        "distribution": {
+          "cream": 1.0
+        },
+        "pattern": "solid",
+        "isMulticolor": false
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\light_cream.png"
+    },
+    {
+      "id": "dark_navy",
+      "item": "shirt",
+      "kind": "solid-dark",
+      "actual": {
+        "primary": [
+          "black",
+          "blue",
+          "navy"
+        ],
+        "secondary": []
+      },
+      "predicted": {
+        "primary": "black",
+        "secondary": [],
+        "accent": [],
+        "distribution": {
+          "black": 1.0
+        },
+        "pattern": "solid",
+        "isMulticolor": false
+      },
+      "primaryOk": true,
+      "secondaryOk": true,
+      "debugImage": "D:\\fyp project\\adore\\ml_service\\reports\\color_debug\\dark_navy.png"
+    }
+  ]
+}
